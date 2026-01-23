@@ -643,7 +643,7 @@ body.tt-magic-cursor #magic-cursor {
 .tt-bg-noise {
 	display: none;
 }
-body.tt-noise .tt-bg-noise {
+/* body.tt-noise .tt-bg-noise {
 	position: absolute;
 	display: block;
 	top: 0;
@@ -666,7 +666,7 @@ body.tt-noise .tt-bg-noise:before {
 	background-image: url(../img/bg-noise.png);
 	background-position: 50%;
 	animation: BgNoise 1s steps(2) infinite;
-}
+} */
 @keyframes BgNoise {
 	0% { transform: translate3d(0, 9rem, 0) }
 	10% { transform: translate3d(-1rem, -4rem, 0) }
@@ -1845,18 +1845,18 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 }
 @media (max-width: 1500px) {
 	.page-header-inner {
-		padding-top: 200px;
-		padding-bottom: 180px;
-		padding-left: 120px;
-		padding-right: 120px;
+		/* padding-top: 200px; */
+		/* padding-bottom: 180px; */
+		/* padding-left: 120px; */
+		/* padding-right: 120px; */
 	}
 }
 @media (max-width: 768px) {
 	.page-header-inner {
-		padding-top: 140px;
+		/* padding-top: 140px;
 		padding-bottom: 140px;
 		padding-left: 7vw;
-		padding-right: 20px;
+		padding-right: 20px; */
 	}
 }
 
@@ -2187,24 +2187,26 @@ body.is-mobile .ph-mask {
 }
 #page-header.ph-center .page-header-inner {
 	display: flex;
-	justify-content: center;
+	height: 100vh;
+	justify-content: right;
+	align-items: flex-end;
 }
 
 @media (max-width: 1500px) {
 	#page-header.ph-center .page-header-inner {
-		padding-left: 100px;
-		padding-right: 100px;
+		/* padding-left: 100px;
+		padding-right: 100px; */
 	}
 }
 @media (max-width: 768px) {
 	#page-header.ph-center .page-header-inner {
-		padding-left: 15px;
-		padding-right: 15px;
+		/* padding-left: 15px;
+		padding-right: 15px; */
 	}
 }
 
 #page-header.ph-center .ph-caption {
-	text-align: center;
+	text-align: right;
 }
 #page-header.ph-center .ph-caption-description {
 	margin-left: auto;
@@ -2298,8 +2300,9 @@ body.is-mobile .ph-mask {
 * Otherwise, only the arrow icon will be shown to save space.
 */
 .tt-scroll-down {
+	display: none;
 	position: absolute;
-	display: block;
+	/* display: block; */
 	right: 2.3%;
 	bottom: 30px;
 	z-index: 9;
@@ -2867,6 +2870,10 @@ blockquote {
 	font-style: italic;
 	font-weight: 500;
 	border-left: 4px solid #3e3e3e;
+}
+.landing-quote{
+	max-width: 70vw;
+	margin: 120px auto;
 }
 @media (max-width: 768px) {
 	blockquote {
@@ -6747,6 +6754,12 @@ a.pgi-category:hover {
 	padding: 0 8%;
 	z-index: 2;
 	color: #efeeec;
+}
+#portfolio-grid.no-caption .pgi-caption {
+	display: none;
+}
+#portfolio-grid.no-caption .tt-grid[class*="ttgr-gap-"] .pgi-image-wrap {
+	border-radius: 0;
 }
 #portfolio-grid.pgi-cap-inside .pgi-title {
 	color: #efeeec;
