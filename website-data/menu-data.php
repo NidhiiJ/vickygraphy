@@ -13,14 +13,14 @@ $menu_items = [
     ],
     [
         'text' => 'About',
-        'url'  => 'about-me.php',
+        'url'  => 'about.php',
         'key'  => 'about'
     ],
-    [
-        'text' => 'Contact',
-        'url'  => 'contact.php',
-        'key'  => 'contact'
-    ],
+    // [
+    //     'text' => 'Contact',
+    //     'url'  => 'contact.php',
+    //     'key'  => 'contact'
+    // ],
     [
         'text' => 'FAQ',
         'url'  => 'faq.php',

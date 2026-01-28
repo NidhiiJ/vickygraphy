@@ -57,7 +57,7 @@
 	* Use class "tt-lightmode-default" to enable light style by default (you must clear your browser's cookies and cache first!).
 	* Note: there may be classes that are specific to this page only!
 	-->
-	<body id="body" class="tt-transition tt-noise tt-magic-cursor tt-smooth-scroll">
+	<body id="body" class="tt-transition tt-noise tt-lightmode-default tt-magic-cursor tt-smooth-scroll">
 
 
 		<!-- *************************************
@@ -68,33 +68,25 @@
 
 			<!-- Begin page transition (do not remove!!!) 
 			=========================== -->
-			<div id="tt-page-transition">
-				<div class="tt-ptr-overlay-top tt-noise"></div>
-				<div class="tt-ptr-overlay-bottom tt-noise"></div>
-				<div class="tt-ptr-preloader">
-					<div class="tt-ptr-prel-content">
-						<!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".tt-ptr-prel-image"). -->
-						<img src="assets/img/logo-light.png" class="tt-ptr-prel-image" alt="Logo">
-					</div> <!-- /.tt-ptr-prel-content -->
-				</div> <!-- /.tt-ptr-preloader -->
-			</div>
+			<?php 
+			require __DIR__ . '/bootstrap.php';
+
+			require BASE_PATH . '/components/page-transition.php';
+			?>
+
 			<!-- End page transition -->
 
 			<!-- Begin magic cursor 
 			======================== -->
-			<div id="magic-cursor">
+			<!-- <div id="magic-cursor">
 				<div id="ball"></div>
-			</div>
+			</div> -->
 			<!-- End magic cursor --> 
 
 			<!-- ===================
 			///// Begin header /////
 			======================== -->
 			<?php 
-			define('BASE_PATH', __DIR__);
-			// require __DIR__ . '/bootstrap.php';
-
-
 			$current_page = 'faq';
 			require BASE_PATH . '/components/header.php';
 			?>
@@ -105,122 +97,6 @@
 			*********** Begin content wrap *********** 
 			************************************** -->
 			<div id="tt-content-wrap">
-
-				
-				<!-- ========================
-				///// Begin page header /////
-				============================= 
-				* Use class "ph-full" to enable fullscreen size (no effect on small screens!).
-				* Use class "ph-full-m" to enable fullscreen size on small screens.
-				* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg", "ph-cap-xxlg" "ph-cap-xxxlg" or "ph-cap-xxxxlg" to set caption size (no class = default size).
-				* Use class "ph-center" to align the content to the center. 
-				* Use class "ph-caption-parallax" to enable caption parallax.
-				* Use class "ph-image-parallax" to enable image/video parallax (if image/video exist).
-				* Use class "ph-bg-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only if the image/video exist).
-				-->
-				<div id="page-header" class="ph-full ph-full-m ph-full-m ph-cap-xxxxlg ph-center ph-image-parallax ph-caption-parallax">
-
-					<!-- Begin page header image 
-					============================= 
-					* Use class "ph-image-grayscale" to enable black & white image.
-					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). 
-					-->
-					<!-- <div class="ph-image ph-image-cover-1">
-						<div class="ph-image-inner">
-							<img src="assets/img/page-header/ph-1.jpg" alt="Image">
-						</div>
-					</div> -->
-					<!-- End page header image -->
-
-					<!-- Begin page header video 
-					============================= 
-					* Use class "ph-video-grayscale" to enable black & white video.
-					* Use class "ph-video-cover-*" to set video overlay opacity. For example "ph-video-cover-2" or "ph-video-cover-2-5" (up to "ph-video-cover-9-5"). 
-					* Use attribute "loop" in <video> tag to make the video play repeatedly.
-					-->
-					<!-- <div class="ph-video ph-video-cover-1">
-						<div class="ph-video-inner">
-							<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/video-1-1920.jpg">
-								<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/video-1-1920.mp4" type="video/mp4">
-								<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/video-1-1920.webm" type="video/webm">
-							</video>
-						</div>
-					</div> -->
-					<!-- End page header video -->
-						
-					<div class="page-header-inner tt-wrap">
-
-						<div class="ph-caption">
-							<div class="ph-caption-inner">
-								<h2 class="ph-caption-subtitle">Help</h2>
-								<h1 class="ph-caption-title">FAQ</h1>
-								<div class="ph-caption-description max-width-700">
-									Some frequently asked questions<br> that may be helpful to you.
-								</div>
-							</div> <!-- /.ph-caption-inner -->
-						</div> <!-- /.ph-caption -->
-
-					</div> <!-- /.page-header-inner -->
-
-					<!-- Begin page header mask
-					============================ 
-					Note: ph-mask is basically a clone of caption. If you want to use a different text on the mask then it is a bit tricky to fit. For better results, make sure that it will be the same length as possible as the original caption text (especially the title). It should also contain the same number of lines. Sometimes this can be difficult to achieve, in which case we recommend simply using identical text to the original caption.
-					-->
-					<div class="page-header-inner ph-mask">
-						<div class="ph-mask-inner tt-wrap">
-
-							<div class="ph-caption">
-								<div class="ph-caption-inner">
-									<h2 class="ph-caption-subtitle">FAQ</h2>
-									<h1 class="ph-caption-title">Help</h1>
-									<div class="ph-caption-description max-width-700">
-										Some frequently asked questions<br> that may be helpful to you.
-									</div>
-								</div> <!-- /.ph-caption-inner -->
-							</div> <!-- /.ph-caption -->
-
-						</div> <!-- /.ph-mask-inner -->
-					</div>
-					<!-- End page header mask -->
-
-
-					<!-- Begin social buttons
-					========================== -->
-					<div class="ph-social">
-						<ul>
-							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
-							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-							<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-							<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-							<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
-						</ul>
-					</div>
-					<!-- End social buttons -->
-
-					<!-- Begin scroll down
-					=======================
-					* Note: Circle shown only if class "ph-full" or "ph-full-m" is enabled in "page-header" but not on small screens! Otherwise, only the arrow icon will be shown to save space.
-					-->
-					<div class="tt-scroll-down">
-						<!-- You can change "data-offset" attribute to set scroll top offset -->
-						<a href="#tt-page-content" class="tt-scroll-down-inner tt-magnetic-item" data-offset="0">
-							<div class="tt-scrd-icon"></div>
-							<svg viewBox="0 0 500 500">
-								<defs>
-									<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
-								</defs>
-								<text dy="30">
-									<!-- If you change the text, you probably have to change the CSS parameters as well. In the "theme.css" file, find ".tt-scroll-down text {" and change the "font-size" and "letter-spacing" to fit the text correctly. -->
-									<textPath xlink:href="#textcircle">Scroll to Explore - Scroll to Explore -</textPath>
-								</text>
-							</svg>
-						</a> <!-- /.tt-scroll-down-inner -->
-					</div>
-					<!-- End scroll down -->
-
-				</div>
-				<!-- End page header -->
-
 
 				<!-- *************************************
 				*********** Begin page content *********** 
@@ -238,33 +114,7 @@
 					<div class="tt-section padding-top-lg-120 padding-top-80 padding-bottom-80">
 						<div class="tt-section-inner tt-wrap max-width-1600">
 
-							<div class="tt-row">
-								<div class="tt-col-lg-3">
-
-									<!-- Begin tt-Heading 
-									====================== 
-									* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg", "tt-heading-xxlg" or "tt-heading-xxxlg" to set caption size (no class = default size).
-									* Use class "tt-heading-center" to align tt-Heading to center.
-									* Use class "tt-text-reveal" or "tt-anim-fadeinup" with title or subtitle element to enable text reveal animation.
-									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-									-->
-									<div class="tt-heading tt-heading-lg">
-										<!-- <h3 class="tt-heading-subtitle tt-text-reveal">Subtitle</h3> -->
-										<h2 class="tt-heading-title tt-text-reveal">Product</h2> <!-- You can use <br> to break a text line if needed -->
-									</div>
-									<!-- End tt-Heading -->
-
-									<p class="text-muted">
-										Most frequently asked questions<br> about my products.
-									</p>
-
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-1 padding-top-30">
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-8 tt-align-self-center">
-
+							<div class="tt-row tt-justify-content-center">
 									<!-- Begin accordion 
 									===================== 
 									* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size. No class = default size. Alternative font used in the title from "tt-ac-lg"!
@@ -272,7 +122,7 @@
 									* Use class "tt-ac-counter" to enable counter.
 									* Use class "tt-ac-borders" to enable borders.
 									-->
-									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter">
+									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter full-width padding-85">
 
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
@@ -291,7 +141,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>The HTML website template comprises pre-designed HTML, CSS, and JavaScript components. It offers only static features (no dynamic features- PHP, MySQL, etc.). The main purpose of the HTML template is to provide design elements. If you lack design skills but want to create your website, converting a pre-designed template to WordPress or another platform with dynamic features is a good idea.</p>
 
 												<p>While the HTML website template can be used as a stand-alone website, it does have some limitations. Customization requires coding skills, at least in HTML and CSS.</p>
@@ -315,7 +165,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>The minimum requirements to use my products are as follows:</p>
 
 												<ul>
@@ -343,7 +193,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>All my templates are compatible with all major latest browsers, such as Edge, Firefox, Opera, Safari, and Chrome.</p>
 											</div> <!-- /.tt-accordion-content -->
 										</div> <!-- /.tt-accordion-item -->
@@ -365,7 +215,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>Yes. All my templates include free lifetime updates.</p>
 											</div> <!-- /.tt-accordion-content -->
 										</div> <!-- /.tt-accordion-item -->
@@ -388,7 +238,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>Although my HTML templates may be available as WordPress versions, I do not provide them myself. WordPress versions are provided by some of my partners.</p>
 												<p>* <em><strong>Please note that I'm not responsible for WordPress versions.</strong> For any inquiries or concerns regarding a particular theme, please reach out to the respective theme author directly.</em></p>
 											</div> <!-- /.tt-accordion-content -->
@@ -412,7 +262,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>If you wish to customize your template but are unfamiliar with HTML and CSS, I highly recommend hiring a specialist. This will save you time and ensure a positive experience while using my product. However, if you decide to embark on customizing it yourself, here's a useful starting point: <a href="http://www.w3schools.com/" target="_blank" rel="noopener noreferrer">http://www.w3schools.com/</a></p>
 											</div> <!-- /.tt-accordion-content -->
 										</div> <!-- /.tt-accordion-item -->
@@ -434,7 +284,7 @@
 											</div> <!-- /.tt-accordion-heading -->
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-1000">
+											<div class="tt-accordion-content ">
 												<p>We only provide customization services for templates that we have created. If you want some customizations to your template, please do not hesitate to <a href="contact.html">contact me</a>, and we can discuss it.</p>
 
 												<p><em><u>* Please note that this service will charge you extra!</u></em></p>
@@ -444,243 +294,7 @@
 									</div>
 									<!-- End accordion -->
 									
-								</div> <!-- /.tt-col -->
-							</div><!-- /.tt-row -->
-
-						</div> <!-- /.tt-section-inner -->
-					</div>
-					<!-- End tt-section -->
-
-
-					<!-- =======================
-					///// Begin tt-section /////
-					============================ 
-					* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc.
-					* You can use classes "border-top" and "border-bottom" if needed. 
-					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-					-->
-					<div class="tt-section padding-top-lg-80 padding-bottom-lg-120 padding-bottom-80">
-						<div class="tt-section-inner tt-wrap max-width-1600">
-
-							<div class="tt-row">
-								<div class="tt-col-lg-3">
-
-									<!-- Begin tt-Heading 
-									====================== 
-									* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg", "tt-heading-xxlg" or "tt-heading-xxxlg" to set caption size (no class = default size).
-									* Use class "tt-heading-center" to align tt-Heading to center.
-									* Use class "tt-text-reveal" or "tt-anim-fadeinup" with title or subtitle element to enable text reveal animation.
-									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-									-->
-									<div class="tt-heading tt-heading-lg">
-										<!-- <h3 class="tt-heading-subtitle tt-text-reveal">Subtitle</h3> -->
-										<h2 class="tt-heading-title tt-text-reveal">Licence</h2> <!-- You can use <br> to break a text line if needed -->
-									</div>
-									<!-- End tt-Heading -->
-
-									<p class="text-muted">
-										Most frequently asked<br> questions about license.
-									</p>
-
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-1 padding-top-30">
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-8 tt-align-self-center">
-
-									<!-- Begin accordion 
-									===================== 
-									* Use class "tt-ac-sm", "tt-ac-lg", "tt-ac-xlg" or "tt-ac-xxlg" to set accordion size. No class = default size. Alternative font used in the title from "tt-ac-lg"!
-									* Use class "tt-ac-hover" to enable hover effect.
-									* Use class "tt-ac-counter" to enable counter.
-									* Use class "tt-ac-borders" to enable borders.
-									-->
-									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter">
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What Are the Different Types of Design Licenses?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him <a href="">newspaper assurance</a>. Prepare garrets it expense windows shewing do an. She projection advantages resolution son indulgence. Part sure on no long life am at ever. In songs above he as drawn.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What’s the Difference Between Personal and Commercial Use Licenses?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Gave read use way make spot how nor. In daughter goodness an likewise oh consider at procured wandered. Songs words wrong by me hills heard timed. Happy eat may doors songs. Be ignorant so of suitable dissuade weddings together. Least whole timed we is. An smallness deficient discourse do newspaper be an eagerness continued. Mr my ready guest ye after short at.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">How Do I Properly License Fonts, Images, and Graphics for My Projects?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Can I Use Free Design Resources for Commercial Projects?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Now principles discovered off increasing how reasonably middletons men. Add seems out man met plate court sense. His joy she worth truth given. All year feet led view went sake. You agreeable breakfast his set perceived immediate. Stimulated man are projecting favourable middletons can cultivated.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What Happens If I Use a Design Without the Proper License?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Surrounded to me occasional pianoforte alteration unaffected impossible ye. For saw half than cold. Pretty merits waited six talked pulled you. Conduct replied off led whether any shortly why arrived adapted. Numerous ladyship so raillery humoured goodness received an. So narrow formal length my highly longer afford oh. Tall neat he make or at dull ye.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">How Do I Create a Licensing Agreement for My Own Designs?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>To sure calm much most long me mean. Able rent long in do we. Uncommonly no it announcing melancholy an in. Mirth learn it he given. Secure shy favour length all twenty denote. He felicity no an at packages answered opinions juvenile.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What Are Royalty-Free and Rights-Managed Licenses?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>He went such dare good mr fact. The small own seven saved man age ﻿no offer. Suspicion did mrs nor furniture smallness. Scale whole downs often leave not eat. An expression reasonably cultivated indulgence mr he surrounded instrument. Gentleman eat and consisted are pronounce distrusts.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Where Can I Find Legitimate Licensed Assets for My Designs?</h4>
-													</div>
-												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content max-width-900">
-												<p>Is branched in my up strictly remember. Songs but chief has ham widow downs. Genius or so up vanity cannot. Large do tried going about water defer by. Silent son man she wished mother. Distrusts allowance do knowledge eagerness assurance additions to.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-									</div>
-									<!-- End accordion -->
-									
-								</div> <!-- /.tt-col -->
+								
 							</div><!-- /.tt-row -->
 
 						</div> <!-- /.tt-section-inner -->
@@ -746,83 +360,10 @@
 				<!-- ======================
 				///// Begin tt-footer /////
 				=========================== -->
-				<footer id="tt-footer" class="border-top">
-					<div class="tt-footer-inner tt-wrap">
+				<?php 
 
-						<div class="tt-row">
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Links</h5>
-									<ul class="tt-footer-widget-list">
-										<li><a href="dummy.html" class="tt-link">Support</a></li>
-										<li><a href="dummy.html" class="tt-link">Licenses</a></li>
-										<li><a href="dummy.html" class="tt-link">Terms of Use</a></li>
-										<li><a href="dummy.html" class="tt-link">Privacy Policy</a></li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Sitemap</h5>
-									<ul class="tt-footer-widget-list">
-										<li><a href="about-me.html" class="tt-link">About Me</a></li>
-										<li><a href="portfolio.html" class="tt-link">My Work</a></li>
-										<li><a href="services.html" class="tt-link">Services</a></li>
-										<li><a href="contact.html" class="tt-link">Contact</a></li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Contact</h5>
-									<ul class="tt-footer-widget-list">
-										<li>
-											<a href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,+Austraalia/@-37.817251,144.955775,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d-37.817251!4d144.955775!16s%2Fg%2F11g0g8c54h" class="tt-link" target="_blank" rel="nofollow noopener">121 King Street,<br> Melbourne, Australia</a>
-										</li>
-										<li><a href="mailto:company@email.com" class="tt-link">company@email.com</a></li>
-										<li><a href="tel:+(123)456789000" class="tt-link"> +(123) 456 789 000</a></li>
-										<li>
-											<div class="tt-social-buttons">
-												<ul>
-													<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
-													<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-													<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-													<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-													<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
-												</ul>
-											</div> <!-- /.tt-social-buttons -->
-										</li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6 tt-justify-content-xl-end">
-								<div class="tt-footer-widget">
-									<ul class="tt-footer-widget-list">
-										<li>
-											<!-- You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-footer-logo img").-->
-											<div class="tt-footer-logo"> 
-												<a href="index.html" class="tt-magnetic-item">
-													<img src="assets/img/logo-light.png" class="tt-logo-light" loading="lazy" alt="Logo"> <!-- logo light -->
-													<img src="assets/img/logo-dark.png" class="tt-logo-dark" loading="lazy" alt="Logo"> <!-- logo dark -->
-												</a>
-											</div> <!-- /.tt-footer-logo -->  
-										</li>
-										<li>
-											<div class="tt-footer-copyright">
-												© <span class="tt-copyright-year"></span> <a href="https://themetorium.net/" class="tt-link" target="_blank" rel="nofollow noopener"> Themetorium.net</a><br> 
-												All Rights Reserved
-											</div> <!-- /.tt-footer-copyright -->
-										</li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-						</div> <!-- /.tt-row -->
-
-					</div> <!-- /.tt-section-inner -->
-				</footer>
+				require BASE_PATH . '/components/footer.php';
+				?>
 				<!-- End tt-footer -->
 
 

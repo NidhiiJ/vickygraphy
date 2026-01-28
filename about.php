@@ -10,7 +10,7 @@
 	<head>
 
 		<!-- Title -->
-		<title>Contact | Jesper - Creative Portfolio Showcase HTML Website Template by Themetorium</title>
+		<title>About Me | Vickygraphy</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -73,21 +73,15 @@
 
 			require BASE_PATH . '/components/page-transition.php';
 			?>
-
-			<!-- End page transition -->
-
-			<!-- Begin magic cursor 
-			======================== -->
-			<!-- <div id="magic-cursor">
-				<div id="ball"></div>
-			</div> -->
-			<!-- End magic cursor --> 
+			<!-- End page transition --> 
 
 			<!-- ===================
 			///// Begin header /////
 			======================== -->
 			<?php 
-			$current_page = 'contact';
+			// define('BASE_PATH', __DIR__);
+
+			$current_page = 'about';
 			require BASE_PATH . '/components/header.php';
 			?>
 			<!-- End header -->
@@ -99,13 +93,86 @@
 			<div id="tt-content-wrap">
 
 				
+				<!-- ========================
+				///// Begin page header /////
+				============================= 
+				* Use class "ph-full" to enable fullscreen size (no effect on small screens!).
+				* Use class "ph-full-m" to enable fullscreen size on small screens.
+				* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg", "ph-cap-xxlg" "ph-cap-xxxlg" or "ph-cap-xxxxlg" to set caption size (no class = default size).
+				* Use class "ph-center" to align the content to the center. 
+				* Use class "ph-caption-parallax" to enable caption parallax.
+				* Use class "ph-image-parallax" to enable image/video parallax (if image/video exist).
+				* Use class "ph-bg-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only if the image/video exist).
+				-->
+				<div id="page-header" class="ph-full ph-full-m ph-cap-xxxxlg ph-center ph-image-parallax ph-caption-parallax">
 
+					<!-- Begin page header image 
+					============================= 
+					* Use class "ph-image-grayscale" to enable black & white image.
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). 
+					-->
+					<div class="ph-image ph-image-cover-1">
+						<div class="ph-image-inner">
+							<img src="assets/img/page-header/about-header.jpg" alt="Image">
+						</div>
+						<div class="tt-ptr-overlay-top">
+
+						</div>
+					</div>
+					<!-- End page header image -->
+
+					<!-- Begin page header video 
+					============================= 
+					* Use class "ph-video-grayscale" to enable black & white video.
+					* Use class "ph-video-cover-*" to set video overlay opacity. For example "ph-video-cover-2" or "ph-video-cover-2-5" (up to "ph-video-cover-9-5"). 
+					* Use attribute "loop" in <video> tag to make the video play repeatedly.
+					-->
+					<!-- <div class="ph-video ph-video-cover-1">
+						<div class="ph-video-inner">
+							<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/video-1-1920.jpg">
+								<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/video-1-1920.mp4" type="video/mp4">
+								<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/video-1-1920.webm" type="video/webm">
+							</video>
+						</div>
+					</div> -->
+					<!-- End page header video -->
+						
+					<div class="page-header-inner tt-wrap">
+
+						<div class="ph-caption padding-height-10">
+							<div class="ph-caption-inner">
+								<h2 class="ph-caption-subtitle">VICKYGRAPHY.IN</h2>
+								<h1 class="ph-caption-title" style="font-weight:600; font-style:italic">ABOUT US</h1>
+								<div class="ph-caption-description max-width-700" style="text-transform:uppercase">
+									Capturing Each Moment Beautifully
+								</div>
+							</div> <!-- /.ph-caption-inner -->
+						</div> <!-- /.ph-caption -->
+
+					</div> <!-- /.page-header-inner -->
+
+
+					<!-- Begin social buttons
+					========================== -->
+					<div class="ph-social">
+						<ul>
+							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
+							<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
+							<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+							<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
+						</ul>
+					</div>
+					<!-- End social buttons -->
+
+				</div>
+				<!-- End page header -->
 
 
 				<!-- *************************************
 				*********** Begin page content *********** 
 				************************************** -->
-				<div id="tt-page-content" class="padding-top-100 ">
+				<div id="tt-page-content">
 
 
 					<!-- =======================
@@ -115,141 +182,71 @@
 					* You can use classes "border-top" and "border-bottom" if needed. 
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
-					<div class="tt-section padding-top-40 padding-bottom-xlg-120">
+					<div class="tt-section padding-top-100 no-padding-bottom padding-bottom-xlg-40">
 						<div class="tt-section-inner tt-wrap">
 
-							<div class="tt-row tt-xl-row-reverse">
-								<div class="tt-col-xl-5">
+							<div class="tt-row tt-lg-row-reverse">
+								<div class="tt-col-lg-6 margin-bottom-20">
 
-									<!-- Begin contact info 
-									======================== -->
-									<div class="tt-contact-info margin-bottom-80">
-
-										<!-- Begin big arrow 
-										====================== 
-										Use classes "tt-ba-angle-left", "tt-ba-angle-top", "tt-ba-angle-top-left", "tt-ba-angle-top-right", "tt-ba-angle-bottom", "tt-ba-angle-bottom-left", "tt-ba-angle-bottom-right" set change arrow pointing angle (no class = right).
-										-->
-										<div class="tt-big-arrow tt-ba-angle-bottom-left tt-anim-fadeinup">
-											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-												<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-											</svg>
-										</div> 
-										<!-- End big arrow -->
-
-										<div class="tt-contact-info-inner">
-
-											<div class="margin-bottom-50 tt-anim-fadeinup">
-												<h6>Let's Talk</h6>
-												<p>You're just one click away from taking your brand or product from great to incredible. Fill out the form to share more details about your project.</p>
-											</div>
-											
-											<!-- Begin contact details 
-											=========================== -->
-											<div class="tt-contact-details margin-bottom-50 tt-anim-fadeinup">
-												<h6>Details</h6>
-												<ul>
-													<li>
-														<span class="tt-cd-icon"><i class="fas fa-map-marker-alt"></i></span>
-														<a href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,+Austraalia/@-37.8172467,144.9532001,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d-37.817251!4d144.955775!16s%2Fg%2F11g0g8c54h?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" class="tt-link" target="_blank" rel="noopener">121 King Street, Melbourne, Australia</a>
-													</li>
-													<li>
-														<span class="tt-cd-icon"><i class="fas fa-phone"></i></span>
-														<a href="tel:+123456789000" class="tt-link">+(123) 456 789 000</a>
-													</li>
-													<li>
-														<span class="tt-cd-icon"><i class="fas fa-envelope"></i></span>
-														<a href="mailto:company@email.com" class="tt-link">company@email.com</a>
-													</li>
-												</ul>
-											</div>
-											<!-- End contact details -->
-
-											<!-- Begin social buttons 
-											========================== -->
-											<div class="tt-social-buttons margin-bottom-50 tt-anim-fadeinup">
-												<h6>Social</h6>
-												<ul>
-													<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
-													<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-													<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-													<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-													<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
-												</ul>
-											</div>
-											<!-- End social buttons  -->
-
-										</div> <!-- /.tt-contact-info-inner -->
-									</div>
-									<!-- End contact info -->
-
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-xl-7">
-
-									<!-- Begin form 
-									================ 
-									* Use class "tt-form-filled", "tt-form-minimal" or "tt-form-creative" to change form style.
-									* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
-									* Note-1: Use only lowercase letters in field names! For example name="email".
-									* Note-2: See the template documentation for how to set up the contact form.
+									<!-- Begin tt-video 
+									==================== 
+									* Use class "ttv-landscape" or "ttv-portrait" to enable video fixed height (no effect on small screens and full width layout!). No class = video default size.
+									* Use class "ttv-full-height" to enable video full height. Useful for full width layout (no effect on small screens!).
+									* Use class "margin-bottom-*" to enable bottom margins. For example "margin-bottom-40". More info about helper classes can be found in the file "helper.css".
+									* Use class "ttv-grayscale" to enable video grayscale.
+									* Available <video> attributes:
+										Use the attribute "loop" to loop the video.
+										Use the attribute "muted" to mute video.
+										Use the attribute "autoplay" to enable autoplay (attribute "muted" is required for autoplay!).
+										Use the attribute "controls" to display the video controls.
+									* Note-1: attribute "playsinline" is required!
+									* Note-2: data-src="..." is required in the video source for video lazy loading!
 									-->
-									<form id="tt-contact-form" class="tt-form tt-form-creative tt-form-lg">
-
-										<!-- Becin contact form messages (do not remove!) -->
-										<div id="tt-contact-form-messages" role="alert">
-											<div class="tt-cfm-inner"></div>
-											<div class="tt-cfm-close hide-cursor"><i class="fa-solid fa-xmark"></i></div>
-										</div>
-										<!-- End contact form messages -->
-
-										<div class="tt-contact-form-inner">
-
-											<!-- <small class="tt-form-text margin-bottom-30"><em>Fields marked with an asterisk (*) are required!</em></small> -->
-
-											<div class="tt-form-group tt-anim-fadeinup">
-												<label>What's your name? <span class="required">*</span></label>
-												<input class="tt-form-control" id="sender-name" type="text" name="name" placeholder="John Smith" required>
-											</div>
-
-											<div class="tt-form-group tt-anim-fadeinup">
-												<label>What's your email? <span class="required">*</span></label>
-												<input class="tt-form-control" id="sender-email" type="email" name="email" placeholder="john@smith.com" required>
-											</div>
-
-											<div class="tt-form-group tt-anim-fadeinup">
-												<label>What would you like to talk about? <span class="required">*</span></label>
-												<select class="tt-form-control" id="sender-option" name="option" required>
-													<option value="" disabled selected>Please choose an option</option>
-													<option value="Say Hello">Say hello</option>
-													<option value="New Project">New project</option>
-													<option value="Feedback">Feedback</option>
-													<option value="Other">Other</option>
-												</select>
-											</div>
-
-											<div class="tt-form-group tt-anim-fadeinup">
-												<label>Your message <span class="required">*</span></label>
-												<textarea class="tt-form-control" id="sender-message" rows="5" name="message" placeholder="Hello, can you help me with ..." required></textarea>
-											</div>
-
-											<div class="tt-anim-fadeinup">
-												<button type="submit" class="tt-btn tt-btn-primary tt-magnetic-item">
-													<span data-hover="Send Message">Send Message</span>
-												</button>
-											</div>
-
-										</div> <!-- /.tt-contact-form-inner-->
-									</form>
-									<!-- End form -->
+									<div class="tt-video ttv-portrait">
+										<img src="assets/img/mock/author.jpg" alt="photographer" class="tt-anim-zoomin">
+									</div> 
+									<!-- <div class="tt-video ttv-portrait ttv-grayscale">
+										<video playsinline muted autoplay loop preload="metadata" poster="assets/vids/1200/video-3-1200.jpg" class="tt-anim-zoomin">
+											<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1200/video-3-1200.mp4" type="video/mp4">
+											<source src="assets/vids/placeholder.webm" data-src="assets/vids/1200/video-3-1200.webm" type="video/webm">
+										</video>
+									</div> -->
+									<!-- End tt-video -->
 
 								</div> <!-- /.tt-col -->
-							</div><!-- /.tt-row -->
+
+								<div class="tt-col-lg-1">
+
+								</div> <!-- /.tt-col -->
+
+								<div class="tt-col-lg-5">
+
+									<h2 class="tt-font-alter tt-anim-fadeinup">Hello!</h2>
+									<div class="text-lg tt-anim-fadeinup">
+										<p>I’m Jesper Dietrich, a Melbourne-based creative designer with over 15 years of crafting impactful digital solutions.</p>
+
+										<p>I believe great design is more than just aesthetics—it’s about strategy, usability, and creating meaningful connections between brands and their audiences.</p>
+
+										<p>With a keen eye for detail, a passion for innovation, and a user-centered approach, I collaborate with brands of all sizes to bring their vision to life. Let’s work together to create something extraordinary.</p>
+
+										<!-- Begin big round button 
+										============================ -->
+										<div class="tt-big-round-ptn margin-top-20 margin-left-xlg-10-p">
+											<a href="portfolio.html" class="tt-big-round-ptn-holder tt-magnetic-item">
+												<div class="tt-big-round-ptn-inner">Explore<br> My Work</div>
+											</a>
+										</div>
+										<!-- End big round button -->
+
+									</div>
+
+								</div> <!-- /.tt-col -->
+							</div> <!-- /.tt-row -->
 
 						</div> <!-- /.tt-section-inner -->
 					</div>
 					<!-- End tt-section -->
 
-
 					<!-- =======================
 					///// Begin tt-section /////
 					============================ 
@@ -257,7 +254,7 @@
 					* You can use classes "border-top" and "border-bottom" if needed. 
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
-					<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 border-top">
+					<div class="tt-section padding-top-xlg-120">
 						<div class="tt-section-inner tt-wrap">
 
 							<div class="tt-row margin-bottom-40">
@@ -271,8 +268,8 @@
 									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
 									-->
 									<div class="tt-heading tt-heading-xxxlg no-margin">
-										<h3 class="tt-heading-subtitle tt-text-reveal">Portfolio</h3>
-										<h2 class="tt-heading-title tt-text-reveal">Explore<br> My Work</h2> <!-- You can use <br> to break a text line if needed -->
+										<h3 class="tt-heading-subtitle tt-text-reveal">Contact</h3>
+										<h2 class="tt-heading-title tt-text-reveal">Let's Work<br> Together</h2> <!-- You can use <br> to break a text line if needed -->
 									</div>
 									<!-- End tt-Heading -->
 
@@ -280,15 +277,15 @@
 							
 								<div class="tt-col-xl-4 tt-align-self-end tt-xl-column-reverse margin-top-40">
 
-									<div class="max-width-600 margin-bottom-10 tt-text-uppercase tt-text-reveal">
-										Discover a showcase of my creative journey that reflects my passion for crafting engaging digital experiences
+									<div class="max-width-600 margin-bottom-10 tt-text-uppercase text-pretty tt-text-reveal">
+										Feeling good about a new project? Write me what's in your mind<br> and let's talk about it!
 									</div>
 
 									<!-- Begin big round button 
 									============================ -->
 									<div class="tt-big-round-ptn margin-top-30 margin-bottom-xlg-80 tt-anim-fadeinup">
-										<a href="portfolio.html" class="tt-big-round-ptn-holder tt-magnetic-item">
-											<div class="tt-big-round-ptn-inner">My<br> Work</div>
+										<a href="contact.html" class="tt-big-round-ptn-holder tt-magnetic-item">
+											<div class="tt-big-round-ptn-inner">Let's<br> Connect!</div>
 										</a>
 									</div>
 									<!-- End big round button -->
@@ -309,10 +306,8 @@
 				///// Begin tt-footer /////
 				=========================== -->
 				<?php 
-
 				require BASE_PATH . '/components/footer.php';
 				?>
-
 				<!-- End tt-footer -->
 
 

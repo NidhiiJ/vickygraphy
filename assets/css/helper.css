@@ -455,6 +455,7 @@ p.text-xxxlg {
 /* Full width */
 .full-width { width: 100% !important; }
 
+
 /* Minimum width classes */
 .min-width { min-width: 100% !important; }
 .min-width-100 { min-width: 100px !important; }

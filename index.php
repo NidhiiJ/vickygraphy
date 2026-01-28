@@ -22,9 +22,7 @@
 		<!-- Google fonts (https://fonts.google.com/) -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
-		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
-
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 		<!-- Libs and Plugins CSS -->
 		<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
 		<link rel="stylesheet" href="assets/vendor/fancybox/css/fancybox.css"> <!-- Fancybox (lightbox) JS (https://fancyapps.com/) -->
@@ -50,7 +48,7 @@
 	* Use class "tt-lightmode-default" to enable light style by default (you must clear your browser's cookies and cache first!).
 	* Note: there may be classes that are specific to this page only!
 	-->
-	<body id="body" class="tt-transition tt-noise tt-magic-cursor tt-smooth-scroll">
+	<body id="body" class="tt-transition tt-noise tt-lightmode-default tt-magic-cursor tt-smooth-scroll">
 
 
 		<!-- *************************************
@@ -61,32 +59,17 @@
 
 			<!-- Begin page transition (do not remove!!!) 
 			=========================== -->
-			<div id="tt-page-transition">
-				<div class="tt-ptr-overlay-top tt-noise"></div>
-				<div class="tt-ptr-overlay-bottom tt-noise"></div>
-				<div class="tt-ptr-preloader">
-					<div class="tt-ptr-prel-content">
-						<!-- Hint: You may need to change the img height and opacity to match your logo type. You can do this from the "theme.css" file (find: ".tt-ptr-prel-image"). -->
-						<img src="assets/img/logo-light.png" class="tt-ptr-prel-image" alt="Logo">
-					</div> <!-- /.tt-ptr-prel-content -->
-				</div> <!-- /.tt-ptr-preloader -->
-			</div>
-			<!-- End page transition -->
+			<?php 
+			require __DIR__ . '/bootstrap.php';
 
-			<!-- Begin magic cursor 
-			======================== -->
-			<!-- <div id="magic-cursor">
-				<div id="ball"></div>
-			</div> -->
-			<!-- End magic cursor --> 
+			require BASE_PATH . '/components/page-transition.php';
+			?>
+			<!-- End page transition -->
 
 			<!-- ===================
 			///// Begin header /////
 			======================== -->
 			<?php 
-			define('BASE_PATH', __DIR__);
-			// require __DIR__ . '/bootstrap.php';
-
 
 			$current_page = 'home';
 			require BASE_PATH . '/components/header.php';
@@ -102,15 +85,7 @@
 				
 				<!-- ========================
 				///// Begin page header /////
-				============================= 
-				* Use class "ph-full" to enable fullscreen size (no effect on small screens!).
-				* Use class "ph-full-m" to enable fullscreen size on small screens.
-				* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg", "ph-cap-xxlg" "ph-cap-xxxlg" or "ph-cap-xxxxlg" to set caption size (no class = default size).
-				* Use class "ph-center" to align the content to the center. 
-				* Use class "ph-caption-parallax" to enable caption parallax.
-				* Use class "ph-image-parallax" to enable image/video parallax (if image/video exist).
-				* Use class "ph-bg-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only if the image/video exist).
-				-->
+				============================= -->
 				<div id="page-header" class="ph-full ph-full-m ph-center ph-cap-xxxxlg ph-image-parallax ph-caption-parallax">
 
 					<!-- Begin page header image 
@@ -118,11 +93,11 @@
 					* Use class "ph-image-grayscale" to enable black & white image.
 					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). 
 					-->
-					<!-- <div class="ph-image ph-image-cover-2">
+					<div class="ph-image ph-image-cover-2">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/ph-1.jpg" alt="Image">
+							<img src="assets/img/page-header/landing-header.jpg" alt="Image">
 						</div>
-					</div> -->
+					</div>
 					<!-- End page header image -->
 
 					<!-- Begin page header video 
@@ -131,14 +106,14 @@
 					* Use class "ph-video-cover-*" to set video overlay opacity. For example "ph-video-cover-2" or "ph-video-cover-2-5" (up to "ph-video-cover-9-5"). 
 					* Use attribute "loop" in <video> tag to make the video play repeatedly.
 					-->
-					<div class="ph-video ph-video-cover-1">
+					<!-- <div class="ph-video ph-video-cover-1">
 						<div class="ph-video-inner">
 							<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/video-1-1920.jpg">
 								<source src="assets/vids/mock/mock_video1.mp4" data-src="assets/vids/mock/mock_video1.mp4" type="video/mp4">
-								<!-- <source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/video-1-1920.webm" type="video/webm"> -->
+								<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/video-1-1920.webm" type="video/webm">
 							</video>
 						</div>
-					</div>
+					</div> -->
 					<!-- End page header video -->
 						
 					<div class="page-header-inner tt-wrap">
@@ -146,9 +121,9 @@
 						<div class="ph-caption">
 							<div class="ph-caption-inner">
 								<!-- <h2 class="ph-caption-subtitle">Subtitle</h2> -->
-								<h1 class="ph-caption-title">Vickygraphy</h1>
-								<div class="ph-caption-description max-width-700 hide">
-									Over 15 years of experience
+								<h1 class="ph-caption-title"><span style="font-style:italic">love</span> FRAMED <br> FOREVER</h1>
+								<div class="ph-caption-description max-width-700">
+									PRESERVING MOMENTS IN PIXELS
 								</div>
 							</div> <!-- /.ph-caption-inner -->
 						</div> <!-- /.ph-caption -->
@@ -179,7 +154,7 @@
 
 					<!-- Begin social buttons
 					========================== -->
-					<div class="ph-social">
+					<div class="ph-social hide">
 						<ul>
 							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
@@ -218,93 +193,25 @@
 
 
 				<!-- *************************************
-				*********** Begin page content *********** 
+				*********** Begin  ̰page content *********** 
 				************************************** -->
 				<div id="tt-page-content">
 
-
-					<!-- =======================
-					///// Begin tt-section /////
-					============================ 
-					* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc.
-					* You can use classes "border-top" and "border-bottom" if needed. 
-					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
-					-->
-					<div class="tt-section padding-top-xlg-140 padding-bottom-xlg-120 hide">
-						<div class="tt-section-inner tt-wrap">
-
-							<div class="tt-row">
-								<div class="tt-col-lg-4">
-
-									<!-- Begin tt-Heading 
-									====================== 
-									* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg", "tt-heading-xxlg" or "tt-heading-xxxlg" to set caption size (no class = default size).
-									* Use class "tt-heading-center" to align tt-Heading to center.
-									* Use class "tt-text-reveal" or "tt-anim-fadeinup" with title or subtitle element to enable text reveal animation.
-									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
-									-->
-									<div class="tt-heading tt-heading-xlg">
-										<!-- <h3 class="tt-heading-subtitle tt-text-reveal">Featured</h3> -->
-										<h2 class="tt-heading-title tt-text-reveal">About Me</h2> <!-- You can use <br> to break a text line if needed -->
-									</div>
-									<!-- End tt-Heading -->
-
-									<div class="tt-text-uppercase margin-top-30 tt-text-reveal">
-										Creative designer<br> based in Melbourne
-									</div>
-
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-1 padding-top-30">
-								</div> <!-- /.tt-col -->
-
-								<div class="tt-col-lg-7 tt-align-self-center">
-
-									<div class="text-xxlg font-500 tt-text-reveal">
-										I am dedicated to developing innovative solutions and impactful experiences that meet user needs and exceed expectations.
-									</div>
-
-									<a href="about-me.html" class="tt-btn tt-btn-outline margin-top-40 tt-magnetic-item tt-anim-fadeinup">
-										<span data-hover="Read More">Read More</span>
-									</a>
-									
-								</div> <!-- /.tt-col -->
-							</div><!-- /.tt-row -->
-
-						</div> <!-- /.tt-section-inner -->
+					<div id='landing-text-section'>
+					your love story deserves to be told fearlessly, passionately, and authentically.
 					</div>
-					<!-- End tt-section -->
-
-					<blockquote class="open-quote landing-quote">
-						<cite>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.</cite>
-						<footer><cite title="Source Title">Steve Jobs</cite></footer>
-					</blockquote>
 
 					<!-- grid start -->
 					<div class="tt-section padding-top-0">
 						<div class="tt-section-inner max-width-2200">
 
 							<!-- Begin portfolio grid (works combined with tt-Ggrid!)
-							========================== 
-							* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
-							* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
-							* Use class "pgi-cap-center" to position portfolio grid item caption to center.
-							* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
-							--> 
+							========================== --> 
 							<div id="portfolio-grid" class="pgi-hover pgi-cap-inside no-caption">
 
 								<!-- Begin tt-Grid
-								=================== 
-								* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
-								* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
-								* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
-								* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
-								* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
-								* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
-								* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
-								-->
+								=================== -->
 								<div class="tt-grid ttgr-layout-3 ttgr-gap-1 ttgr-not-cropped">
-
 
 									<!-- Begin tt-Grid items wrap 
 									============================== -->
@@ -325,23 +232,11 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img1.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img1.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-1.html">Tortillas</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <a href="" class="pgi-category">Varia</a -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -364,23 +259,11 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img2.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img2.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-2.html">Coffee Shop</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -403,23 +286,11 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img12.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img3.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-3.html">Fashion Shoot</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Artistic</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -442,23 +313,11 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img4.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img4.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-4.html">Postorganic</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Artistic</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -481,23 +340,11 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img5.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img5.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-5.html">Embrace Yourself</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -520,23 +367,12 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img6.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img6.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-6.html">Pink Oasis</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -559,23 +395,11 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img7.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img7.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-7.html">Turbulent Waters</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -598,23 +422,11 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img8.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img8.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-8.html">Baby Care</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -637,23 +449,11 @@
 														<div class="pgi-image-holder cover-opacity-2">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/mock/img9.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img9.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-9.html">Dream Spa</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
 												</div>
 												<!-- End portfolio grid item -->
 
@@ -666,26 +466,6 @@
 
 								</div>
 								<!-- End tt-Grid -->
-
-								<!-- Begin tt-pagination (uncomment below code if you want to use pagination)
-								========================= 
-								* Use class "tt-pagin-center" to align center.
-								-->
-								<!-- <div class="tt-pagination tt-pagin-center tt-anim-fadeinup">
-									<div class="tt-pagin-prev">
-										<a href="" class="tt-pagin-item tt-magnetic-item"><i class="fas fa-arrow-left"></i></a>
-									</div>
-									<div class="tt-pagin-numbers">
-										<a href="#" class="tt-pagin-item tt-magnetic-item active">1</a>
-										<a href="" class="tt-pagin-item tt-magnetic-item">2</a>
-										<a href="" class="tt-pagin-item tt-magnetic-item">3</a>
-										<a href="" class="tt-pagin-item tt-magnetic-item">4</a>
-									</div>
-									<div class="tt-pagin-next">
-										<a href="" class="tt-pagin-item tt-pagin-next tt-magnetic-item"><i class="fas fa-arrow-right"></i></a>
-									</div>
-								</div> -->
-								<!-- End tt-pagination -->
 
 							</div>
 							<!-- End portfolio grid -->
@@ -702,7 +482,7 @@
 
 					-->
 					<div class="tt-section">
-						<div class="tt-section-inner tt-wrap max-width-1500">
+						<div class="tt-section-inner tt-wrap max-width-1500 padding-right-xlg-80 padding-left-xlg-80">
 
 							<div class="tt-row">
 								<div class="tt-col-xl-3 margin-bottom-60">
@@ -715,13 +495,13 @@
 									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
 									-->
 									<div class="tt-heading tt-heading-xxlg">
-										<h3 class="tt-heading-subtitle tt-text-reveal">What I Do</h3>
+										<h3 class="tt-heading-subtitle tt-text-reveal">What We Do</h3>
 										<h2 class="tt-heading-title tt-text-reveal">Services</h2> <!-- You can use <br> to break a text line if needed -->
 									</div>
 									<!-- End tt-Heading -->
 
-									<div class="tt-text-uppercase max-width-400 margin-bottom-20 text-pretty tt-text-reveal">
-										Comprehensive digital services to boost your online presence and achieve impactful results.
+									<div class="tt-text-uppercase  margin-bottom-20 text-pretty tt-text-reveal">
+									global pre-wedding and wedding photography, capturing timeless, authentic love stories everywhere.
 									</div>
 
 								</div> <!-- /.tt-col -->
@@ -758,13 +538,12 @@
 
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
 											<div class="tt-accordion-content max-width-1400">
+												<p>Complete wedding photography coverage across all locations, backed by an experienced professional team. From candid moments and traditional rituals to detailed portraits.</p>
 
-												<p>Crafting data-driven strategies to elevate your online presence. I align your business goals with innovative digital solutions, ensuring measurable growth and a competitive edge in the digital landscape.</p>
-
-												<p>In today’s fast-paced digital world, having a clear and actionable strategy is key to standing out. I specialize in crafting data-driven digital strategies tailored to your unique business goals. Whether you’re looking to grow your online presence, improve customer engagement, or drive conversions, I work closely with you to identify opportunities and create a roadmap for success. From audience analysis and competitive research to defining KPIs and optimizing digital channels, I ensure your strategy is not only innovative but also measurable and results-oriented. Let’s turn your vision into a digital reality.</p>
+												<p>Our team ensures seamless coverage, cinematic storytelling, and high-quality professional editing that delivers timeless wedding memories.</p>
 
 												<a href="contact.html" class="tt-btn tt-btn-outline tt-magnetic-item">
-													<span data-hover="Let’s Connect!">Let’s Connect!</span>
+													<span data-hover="Book Us">Book Us</span>
 												</a>
 
 											</div> <!-- /.tt-accordion-content -->
@@ -789,12 +568,12 @@
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
 											<div class="tt-accordion-content max-width-1400">
 
-												<p>Building brands that resonate. From logos to messaging, I create cohesive and memorable identities that reflect your values, connect with your audience, and stand out in the market.</p>
+												<p>love story in a relaxed and creative way.</p>
 
-												<p>Your brand is more than just a logo—it’s the heart and soul of your business. I help you create a cohesive and memorable brand identity that resonates with your audience and reflects your core values. From crafting a unique logo and selecting the perfect color palette to defining your brand voice and messaging, I ensure every element works together to tell your story. Whether you’re launching a new brand or refreshing an existing one, I’ll guide you through the process of building a strong, authentic identity that stands out in a crowded market.</p>
+												<p>With expert photographers, thoughtful direction, and advanced editing techniques, we create visually stunning pre-wedding photographs that feel natural, romantic, and personal.</p>
 
 												<a href="contact.html" class="tt-btn tt-btn-outline tt-magnetic-item">
-													<span data-hover="Let’s Connect!">Let’s Connect!</span>
+													<span data-hover="Book Us">Book Us</span>
 												</a>
 
 											</div> <!-- /.tt-accordion-content -->
@@ -804,7 +583,7 @@
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Editorial Shoot</h4>
+														<h4 class="tt-ac-head-title">Commercial Shoot</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -819,12 +598,12 @@
 											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
 											<div class="tt-accordion-content max-width-1400">
 
-												<p>Designing intuitive and engaging experiences. I blend user-centered design principles with cutting-edge aesthetics to create interfaces that are not only beautiful but also functional and easy to navigate.</p>
+												<p>We offer professional commercial photography services worldwide, supported by a skilled creative team and premium post-production.</p>
 
-												<p>Great design is more than just aesthetics—it’s about creating seamless and enjoyable experiences for your users. I specialize in designing intuitive and user-friendly interfaces that not only look stunning but also function flawlessly. By combining user-centered design principles with a deep understanding of your audience, I create wireframes, prototypes, and final designs that prioritize usability and engagement. Whether it’s a website, app, or digital platform, I ensure every interaction feels natural and every detail enhances the overall experience.</p>
+												<p>From product and brand shoots to business visuals, we deliver sharp, polished, and market-ready images designed to elevate your brand presence.</p>
 
 												<a href="contact.html" class="tt-btn tt-btn-outline tt-magnetic-item">
-													<span data-hover="Let’s Connect!">Let’s Connect!</span>
+													<span data-hover="Book Us">Book Us</span>
 												</a>
 
 											</div> <!-- /.tt-accordion-content -->
@@ -1919,89 +1698,9 @@
 
 				<!-- End page content -->
 
-
-
-				<!-- ======================
-				///// Begin tt-footer /////
-				=========================== -->
-				<footer id="tt-footer" class="border-top">
-					<div class="tt-footer-inner tt-wrap">
-
-						<div class="tt-row">
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Links</h5>
-									<ul class="tt-footer-widget-list">
-										<li><a href="dummy.html" class="tt-link">Support</a></li>
-										<li><a href="dummy.html" class="tt-link">Licenses</a></li>
-										<li><a href="dummy.html" class="tt-link">Terms of Use</a></li>
-										<li><a href="dummy.html" class="tt-link">Privacy Policy</a></li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Sitemap</h5>
-									<ul class="tt-footer-widget-list">
-										<li><a href="about-me.html" class="tt-link">About Me</a></li>
-										<li><a href="portfolio.html" class="tt-link">My Work</a></li>
-										<li><a href="services.html" class="tt-link">Services</a></li>
-										<li><a href="contact.html" class="tt-link">Contact</a></li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6">
-								<div class="tt-footer-widget">
-									<h5 class="tt-footer-widget-heading">Contact</h5>
-									<ul class="tt-footer-widget-list">
-										<li>
-											<a href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,+Austraalia/@-37.817251,144.955775,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d-37.817251!4d144.955775!16s%2Fg%2F11g0g8c54h" class="tt-link" target="_blank" rel="nofollow noopener">121 King Street,<br> Melbourne, Australia</a>
-										</li>
-										<li><a href="mailto:company@email.com" class="tt-link">company@email.com</a></li>
-										<li><a href="tel:+(123)456789000" class="tt-link"> +(123) 456 789 000</a></li>
-										<li>
-											<div class="tt-social-buttons">
-												<ul>
-													<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
-													<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-													<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-													<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-													<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
-												</ul>
-											</div> <!-- /.tt-social-buttons -->
-										</li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-
-							<div class="tt-col-xl-3 tt-col-sm-6 tt-justify-content-xl-end">
-								<div class="tt-footer-widget">
-									<ul class="tt-footer-widget-list">
-										<li>
-											<!-- You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-footer-logo img").-->
-											<div class="tt-footer-logo"> 
-												<a href="index.html" class="tt-magnetic-item">
-													<img src="assets/img/logo-light.png" class="tt-logo-light" loading="lazy" alt="Logo"> <!-- logo light -->
-													<img src="assets/img/logo-dark.png" class="tt-logo-dark" loading="lazy" alt="Logo"> <!-- logo dark -->
-												</a>
-											</div> <!-- /.tt-footer-logo -->  
-										</li>
-										<li>
-											<div class="tt-footer-copyright">
-												© <span class="tt-copyright-year"></span> <a href="https://themetorium.net/" class="tt-link" target="_blank" rel="nofollow noopener"> Themetorium.net</a><br> 
-												All Rights Reserved
-											</div> <!-- /.tt-footer-copyright -->
-										</li>
-									</ul> <!-- /.tt-footer-widget-list -->
-								</div> <!-- /.tt-footer-widget -->
-							</div> <!-- /.tt-col -->
-						</div> <!-- /.tt-row -->
-
-					</div> <!-- /.tt-section-inner -->
-				</footer>
-				<!-- End tt-footer -->
+				<?php
+				require BASE_PATH . '/components/footer.php';
+				?>
 
 
 				<!-- Begin scroll to top button

@@ -86,11 +86,15 @@
 	--tt-linear-text-bg-color: rgb(255 255 255 / 20%); /* For linear text reveal effect (do not change it!). rgb(255 255 255 / 20%) */
 
 	/* Fonts */
-	--tt-body-font: 'Poppins', sans-serif; /* Body font. */
-	--tt-alter-font: "Big Shoulders Display", sans-serif; /* Secondary/Alter font. */
+	--tt-alter-font: "Cormorant Garamond", serif;
+	--tt-body-font: "Inter", sans-serif;
+	/* --tt-body-font: 'Poppins', sans-serif; Body font. */
+	/* --tt-alter-font: "Big Shoulders Display", sans-serif; Secondary/Alter font. */
 
 	/* Page transition */
-	--tt-page-trans-overlay-bg-color: #161616; /* Page transition overlay background color. #161616 */
+	--tt-page-trans-overlay-bg-color: #161616;
+	
+	/* --tt-page-trans-overlay-bg-color: #e5e3dc; */
 
 	/* Cursor ball */
 	--tt-ball-border-color: #666; /* Ball border color. #666 */
@@ -346,7 +350,7 @@ body.tt-transition .tt-ptr-prel-content {
 }
 
 .tt-ptr-prel-image {
-	max-height: 72px; /* You may need to change the img height to match your logo type! */
+	max-height: 8rem; /* You may need to change the img height to match your logo type! */
 	opacity: .7; /* You may need to change the opacity as well! */
 }
 
@@ -482,7 +486,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-weight: 600;
 	color: var(--tt-ball-color);
 	line-height: 1;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-color: var(--tt-ball-bg-color);
 }
 #ball .ball-view-inner {
@@ -621,7 +625,7 @@ body.tt-magic-cursor #magic-cursor {
 	font-weight: 600;
 	color: var(--tt-light-color);
 	line-height: 1;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 
@@ -748,8 +752,6 @@ h6.tt-text-uppercase {
 	text-transform: uppercase;
 	font-family: var(--tt-alter-font);
 	font-size: clamp(32px, 3vw, 42px);
-	font-weight: bold;
-	font-weight: 600;
 	line-height: 1;
 }
 
@@ -760,7 +762,7 @@ h6.tt-text-uppercase {
 	font-size: calc(15px + 0.1vw);
 	font-weight: bold;
 	font-weight: 600;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	line-height: 1.2;
 }
 .tt-heading-title + .tt-heading-subtitle {
@@ -1128,7 +1130,7 @@ h6.tt-text-uppercase {
 	text-transform: uppercase;
 	font-size: calc(15px + 0.1vw);
 	font-weight: 500;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	line-height: 1.2;
 }
 .tt-404-error-description {
@@ -1281,7 +1283,8 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 	color: #222;
 }
 .tt-logo img {
-	max-height: 48px; /* You may need to change the img height to match your logo type! */
+	margin-bottom: 14px;
+	max-height: 8rem; 
 }
 .tt-logo-dark{
 	display: none;
@@ -1290,7 +1293,7 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 /* Logo for small screens */
 @media (max-width: 1024px) {
 	.tt-logo img {
-		max-height: 38px; /* You may need to change the img height to match your logo type! */
+		max-height: 5rem; 
 	}
 }
 
@@ -1349,11 +1352,8 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 		padding: 4px 0;
 		text-transform: uppercase;
 		font-family: var(--tt-alter-font);
-		font-size: 24px;
-		font-weight: bold;
-		font-weight: 600;
+		font-size: 1.2rem;
 		color: var(--tt-text-color);
-		letter-spacing: 1px;
 		transition: color 0.3s, opacity 0.3s;
 	}
 	
@@ -1781,7 +1781,7 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 		font-weight: bold;
 		font-weight: 600;
 		color: var(--tt-text-color);
-		letter-spacing: 1px;
+		/* letter-spacing: 1px; */
 	}
 	body.tt-m-menu-open .tt-m-menu-toggle-btn-text .tt-m-menu-text-menu {
 		display: none;
@@ -1996,22 +1996,18 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 /* Page header caption subtitle */
 .ph-caption-subtitle {
 	margin-bottom: 40px;
-	text-transform: uppercase;
 	font-size: calc(15px + 0.2vw);
 	font-weight: 500;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	line-height: 1.2;
 }
 
 /* Page header caption title */
 .ph-caption-title {
 	margin: 0;
-	text-transform: uppercase;
 	font-family: var(--tt-alter-font);
-	font-size: clamp(48px, 5vw, 82px);
-	font-weight: bold;
-	font-weight: 600;
-	line-height: 0.95;
+	font-size: clamp(60px, 7vw, 108px);
+	box-sizing: border-box;
 }
 @media (max-width: 414px) {
 	.ph-caption-title {
@@ -2022,7 +2018,6 @@ body:not(.tt-m-menu-open) #tt-header.tt-header-scroll.tt-fly-up {
 /* Page header caption description */
 .ph-caption-description {
 	margin-top: 30px;
-	text-transform: uppercase;
 	font-size: 19px;
 	font-weight: normal;
 	line-height: 1.2;
@@ -2104,7 +2099,7 @@ a.ph-caption-category:hover {
 }
 
 /* Page header caption sizes */
-#page-header.ph-cap-sm .ph-caption-title {
+/* #page-header.ph-cap-sm .ph-caption-title {
 	font-size: clamp(48px, 4vw, 64px);
 }
 #page-header.ph-cap-lg .ph-caption-title {
@@ -2123,7 +2118,7 @@ a.ph-caption-category:hover {
 #page-header.ph-cap-xxxxlg .ph-caption-title {
 	font-size: clamp(64px, 12vw, 230px);
 	line-height: 0.9;
-}
+} */
 
 
 /* Page header mask 
@@ -2188,8 +2183,8 @@ body.is-mobile .ph-mask {
 #page-header.ph-center .page-header-inner {
 	display: flex;
 	height: 100vh;
-	justify-content: right;
-	align-items: flex-end;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (max-width: 1500px) {
@@ -2206,7 +2201,7 @@ body.is-mobile .ph-mask {
 }
 
 #page-header.ph-center .ph-caption {
-	text-align: right;
+	text-align: center;
 }
 #page-header.ph-center .ph-caption-description {
 	margin-left: auto;
@@ -2402,7 +2397,7 @@ body.is-mobile .ph-mask {
 	font-size: 54px;
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 14px;
+	/* letter-spacing: 14px; */
 	fill: var(--tt-text-color);
 	transition: fill .2s;
 }
@@ -2441,7 +2436,7 @@ body.is-mobile .ph-mask {
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 500;
-	letter-spacing: 2px;
+	/* letter-spacing: 2px; */
 }
 .ph-share-icon {
 	font-size: 15px;
@@ -4092,7 +4087,7 @@ button {
 	font-weight: 500;
 	overflow: hidden;
 	cursor: pointer;
-	letter-spacing: 0.5px;
+	/* letter-spacing: 0.5px; */
 	border: none;
 	border-radius: 100px;
 	z-index: 9;
@@ -4294,7 +4289,7 @@ body:not(.is-mobile) .tt-btn:hover .tt-btn-line {
 	font-weight: 600;
 	color: var(--tt-text-color);
 	line-height: 1.1;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	border-radius: 50%;
 	border: 2px solid var(--tt-main-color);
 	transform: rotate(-20deg);
@@ -5809,7 +5804,7 @@ body:not(.is-mobile) {
 	text-transform: uppercase;
 	font-family: var(--tt-alter-font);
 	font-size: 19px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	z-index: 9;
 }
 body:not(.is-mobile) .ttgr-cat-close-btn {
@@ -6754,9 +6749,6 @@ a.pgi-category:hover {
 	padding: 0 8%;
 	z-index: 2;
 	color: #efeeec;
-}
-#portfolio-grid.no-caption .pgi-caption {
-	display: none;
 }
 #portfolio-grid.no-caption .tt-grid[class*="ttgr-gap-"] .pgi-image-wrap {
 	border-radius: 0;
@@ -9068,7 +9060,7 @@ body:not(.is-mobile) .tt-shs-keep-scrolling {
 	font-size: calc(15px + 0.1vw);
 	font-weight: bold;
 	font-weight: 600;
-	letter-spacing: 2px;
+	/* letter-spacing: 2px; */
 	line-height: 1.2;
 }
 .tt-np-top .tt-btn i {
@@ -9465,9 +9457,7 @@ body.is-mobile .tt-avlist-item:focus {
 	margin-bottom: 34px;
 	text-transform: uppercase;
 	font-family: var(--tt-alter-font);
-	font-size: clamp(38px, 4vw, 58px);
-	font-weight: bold;
-	font-weight: 600;
+	font-size: clamp(1rem, 2rem, 4rem);
 	color: var(--tt-text-color);
 }
 
@@ -9600,4 +9590,20 @@ svg.tt-stt-progress-circle path {
 	fill: none;
 	stroke: var(--tt-light-color);
 	stroke-width: 4;
+}
+
+/* custom css */
+#landing-text-section{
+	text-transform: uppercase;
+	font-style: italic;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+	margin-right: 40px;
+	margin-left: 40px;
+	font-family: var(--tt-alter-font);
+	font-size: clamp(16px, 3rem, 60px);
 }

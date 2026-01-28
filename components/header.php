@@ -11,9 +11,9 @@ if (!defined('BASE_PATH')) {
         <!-- Left: Logo -->
         <div class="tt-header-col tt-header-col-left">
             <div class="tt-logo"> 
-                <a href="index.php" class="tt-magnetic-item">
-                    <img src="assets/img/logo-light.png" class="tt-logo-light" alt="Logo">
-                    <img src="assets/img/logo-dark.png" class="tt-logo-dark" alt="Logo">
+                <a href="index.php">
+                    <img src="assets/img/logo/Secondary-White.png" class="tt-logo-light" alt="Logo">
+                    <img src="/assets/img/logo/Secondary-Black.png" class="tt-logo-dark" alt="Logo">
                 </a>
             </div>
         </div>
@@ -28,18 +28,21 @@ if (!defined('BASE_PATH')) {
 
             <!-- Mobile menu toggle -->
             <div id="tt-m-menu-toggle-btn-wrap">
-                <div class="tt-m-menu-toggle-btn-text">
-                    <span class="tt-m-menu-text-menu">Menu</span>
-                    <span class="tt-m-menu-text-close">Close</span>
-                </div>
+
                 <div class="tt-m-menu-toggle-btn-holder">
                     <a href="#" class="tt-m-menu-toggle-btn"><span></span></a>
                 </div>
             </div>
 
+            <!-- Begin header button (hidden on small screens!) -->
+            <a href="contact.php" class="tt-btn tt-btn-secondary hide-from-xlg">
+                <span data-hover="Contact">Contact</span>
+            </a>
+            <!-- End header button -->
+
             <!-- Style switch -->
             <div class="tt-style-switch">
-                <div class="tt-style-switch-inner tt-magnetic-item">
+                <div class="tt-style-switch-inner">
                     <div class="tt-stsw-light"><i class="fas fa-sun"></i></div>
                     <div class="tt-stsw-dark"><i class="fas fa-moon"></i></div>
                 </div>
