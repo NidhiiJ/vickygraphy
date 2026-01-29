@@ -116,7 +116,6 @@
 							<img src="assets/img/page-header/about-header.jpg" alt="Image">
 						</div>
 						<div class="tt-ptr-overlay-top">
-
 						</div>
 					</div>
 					<!-- End page header image -->
@@ -202,8 +201,8 @@
 									* Note-1: attribute "playsinline" is required!
 									* Note-2: data-src="..." is required in the video source for video lazy loading!
 									-->
-									<div class="tt-video ttv-portrait">
-										<img src="assets/img/mock/author.jpg" alt="photographer" class="tt-anim-zoomin">
+									<div class="tt-video ttv-portrait ">
+										<img src="assets/img/vicky.jpg" alt="photographer" class="tt-anim-zoomin ph-image-grayscale">
 									</div> 
 									<!-- <div class="tt-video ttv-portrait ttv-grayscale">
 										<video playsinline muted autoplay loop preload="metadata" poster="assets/vids/1200/video-3-1200.jpg" class="tt-anim-zoomin">
@@ -221,19 +220,19 @@
 
 								<div class="tt-col-lg-5">
 
-									<h2 class="tt-font-alter tt-anim-fadeinup">Hello!</h2>
+									<h2 class="tt-font-alter tt-anim-fadeinup" style="font-weight:400" >Hello!</h2>
 									<div class="text-lg tt-anim-fadeinup">
-										<p>I’m Jesper Dietrich, a Melbourne-based creative designer with over 15 years of crafting impactful digital solutions.</p>
+										<p>I’m Vicky, a wedding and pre-wedding photographer passionate about preserving moments that matter.</p>
 
-										<p>I believe great design is more than just aesthetics—it’s about strategy, usability, and creating meaningful connections between brands and their audiences.</p>
+										<p>For me, photography is not about staging perfection. It’s about observing quietly and capturing what is real the nervous smiles, the steady hands during vows, the laughter that breaks the silence.</p>
 
-										<p>With a keen eye for detail, a passion for innovation, and a user-centered approach, I collaborate with brands of all sizes to bring their vision to life. Let’s work together to create something extraordinary.</p>
+										<p>The result? Images that feel just as powerful years from now as they did in that very moment.</p>
 
 										<!-- Begin big round button 
 										============================ -->
-										<div class="tt-big-round-ptn margin-top-20 margin-left-xlg-10-p">
-											<a href="portfolio.html" class="tt-big-round-ptn-holder tt-magnetic-item">
-												<div class="tt-big-round-ptn-inner">Explore<br> My Work</div>
+										<div class="tt-big-round-ptn margin-top-20 ">
+											<a href="work.php" class="tt-btn tt-btn-secondary">
+												<span data-hover="EXPLORE OUR WORK">EXPLORE OUR WORK</span>
 											</a>
 										</div>
 										<!-- End big round button -->
@@ -247,18 +246,117 @@
 					</div>
 					<!-- End tt-section -->
 
-					<!-- =======================
+										<!-- =======================
 					///// Begin tt-section /////
 					============================ 
 					* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc.
 					* You can use classes "border-top" and "border-bottom" if needed. 
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
-					<div class="tt-section padding-top-xlg-120">
+					<div class="tt-section padding-top-xlg-120 border-top">
+						<div class="tt-section-inner">
+
+							<!-- Begin tt-Heading 
+							====================== 
+							* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg", "tt-heading-xxlg" or "tt-heading-xxxlg" to set caption size (no class = default size).
+							* Use class "tt-heading-center" to align tt-Heading to center.
+							* Use class "tt-text-reveal" or "tt-anim-fadeinup" with title or subtitle element to enable text reveal animation.
+							* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-40">
+								<!-- <h3 class="tt-heading-subtitle tt-text-reveal">Subtitle</h3> -->
+								<h2 class="tt-heading-title tt-text-reveal">WHAT WE DO</h2> <!-- You can use <br> to break a text line if needed -->
+								<p class="max-width-600 tt-anim-fadeinup text-muted">Documenting love with intention, emotion, and timeless storytelling.</p>
+							</div>
+							<!-- End tt-Heading -->
+
+							<!-- Begin horizontal accordion
+							================================ 
+							* Use class "tt-hac-alter-hover" to enable alternative hover style (no effect on small screens!).
+							* INFO: Do not use too many items here! The more items, the narrower the space to display. Up to 5 items are optimal. If you want to display more items, use a vertical accordion instead.
+							-->
+							<div class="tt-horizontal-accordion tt-anim-fadeinup">
+
+								<!-- Begin horizontal accordion item 
+								===================================== -->
+								<div class="tt-hac-item cursor-alter">
+									<div class="tt-hac-item-count"></div>
+									<div class="tt-hac-item-inner">
+										<div class="tt-hac-item-content">
+											<div class="tt-haci-content-top">
+												<h2 class="tt-haci-title">WEDDING <br>PHOTOGRAPHY </h2>
+												<div class="tt-haci-description"> <!-- Max 4 lines of text displayed -->
+												capture weddings as they naturally unfold — the quiet prayers, the nervous smiles, the unplanned laughter. My focus is on real emotion, thoughtful composition, and moments that will still feel powerful decades from now.
+												</div> <!-- /.tt-haci-description -->
+											</div> <!-- /.tt-haci-content-top -->
+										</div> <!-- /.tt-hac-item-content -->
+									</div> <!-- /.tt-hac-item-inner -->
+								</div>
+								<!-- End horizontal accordion item -->
+
+								<!-- Begin horizontal accordion item 
+								===================================== -->
+								<div class="tt-hac-item cursor-alter">
+									<div class="tt-hac-item-count"></div>
+									<div class="tt-hac-item-inner">
+										<div class="tt-hac-item-content">
+											<div class="tt-haci-content-top">
+												<h2 class="tt-haci-title">WEDDING<br> FILMS</h2>
+												<div class="tt-haci-description"> <!-- Max 4 lines of text displayed -->
+												Beyond photographs, I craft cinematic wedding films that preserve movement, sound, and emotion. From vows to celebrations, every frame is edited with care to tell your story in a way that feels honest and timeless.
+												</div> <!-- /.tt-haci-description -->
+											</div> <!-- /.tt-haci-content-top -->
+										</div> <!-- /.tt-hac-item-content -->
+									</div> <!-- /.tt-hac-item-inner -->
+								</div>
+								<!-- End horizontal accordion item -->
+
+								<!-- Begin horizontal accordion item 
+								===================================== -->
+								<div class="tt-hac-item cursor-alter">
+									<div class="tt-hac-item-count"></div>
+									<div class="tt-hac-item-inner">
+										<div class="tt-hac-item-content">
+											<div class="tt-haci-content-top">
+												<h2 class="tt-haci-title">PRE-WEDDING <br> SHOOTS												</h2>
+												<div class="tt-haci-description"> <!-- Max 4 lines of text displayed -->
+												Before the ceremony, there’s your story. Pre-wedding sessions are relaxed, personal, and designed to capture your connection without pressure. It’s about comfort, chemistry, and documenting love in its most natural form.
+												</div> <!-- /.tt-haci-description -->
+											</div> <!-- /.tt-haci-content-top -->
+										</div> <!-- /.tt-hac-item-content -->
+									</div> <!-- /.tt-hac-item-inner -->
+								</div>
+								<!-- End horizontal accordion item -->
+
+								<!-- Begin horizontal accordion item 
+								===================================== -->
+								<div class="tt-hac-item cursor-alter">
+									<div class="tt-hac-item-count"></div>
+									<div class="tt-hac-item-inner">
+										<div class="tt-hac-item-content">
+											<div class="tt-haci-content-top">
+												<h2 class="tt-haci-title">COMMERCIAL <br> SHOOTS</h2>
+												<div class="tt-haci-description"> <!-- Max 4 lines of text displayed -->
+												From bridal brands to lifestyle campaigns, I create refined visual content that balances aesthetics with purpose. Clean, intentional imagery designed to elevate brands within the wedding and lifestyle space.
+												</div> <!-- /.tt-haci-description -->
+											</div> <!-- /.tt-haci-content-top -->
+										</div> <!-- /.tt-hac-item-content -->
+									</div> <!-- /.tt-hac-item-inner -->
+								</div>
+								<!-- End horizontal accordion item -->
+
+							</div>
+							<!-- End horizontal accordion -->
+
+						</div> <!-- /.tt-section-inner -->
+					</div>
+					<!-- End tt-section -->
+
+					<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 ">
 						<div class="tt-section-inner tt-wrap">
 
 							<div class="tt-row margin-bottom-40">
-								<div class="tt-col-xl-8">
+								<div class="tt-justify-content-between tt-align-items-center full-width">
 
 									<!-- Begin tt-Heading 
 									====================== 
@@ -267,35 +365,25 @@
 									* Use class "tt-text-reveal" or "tt-anim-fadeinup" with title or subtitle element to enable text reveal animation.
 									* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
 									-->
-									<div class="tt-heading tt-heading-xxxlg no-margin">
-										<h3 class="tt-heading-subtitle tt-text-reveal">Contact</h3>
-										<h2 class="tt-heading-title tt-text-reveal">Let's Work<br> Together</h2> <!-- You can use <br> to break a text line if needed -->
+									<div class="contact-us-section">
+										<h3 class="subtitle tt-text-reveal">Contact</h3>
+										<h2 class="title tt-text-reveal">
+											Feeling confident about our work?
+										</h2> <!-- You can use <br> to break a text line if needed -->
 									</div>
 									<!-- End tt-Heading -->
+									<!-- Begin header button (hidden on small screens!) -->
+									<a href="contact.php" class="tt-btn tt-btn-secondary">
+										<span data-hover="GET IN TOUCH">GET IN TOUCH</span>
+									</a>
+									<!-- End header button -->
 
 								</div> <!-- /.tt-col -->
 							
-								<div class="tt-col-xl-4 tt-align-self-end tt-xl-column-reverse margin-top-40">
-
-									<div class="max-width-600 margin-bottom-10 tt-text-uppercase text-pretty tt-text-reveal">
-										Feeling good about a new project? Write me what's in your mind<br> and let's talk about it!
-									</div>
-
-									<!-- Begin big round button 
-									============================ -->
-									<div class="tt-big-round-ptn margin-top-30 margin-bottom-xlg-80 tt-anim-fadeinup">
-										<a href="contact.html" class="tt-big-round-ptn-holder tt-magnetic-item">
-											<div class="tt-big-round-ptn-inner">Let's<br> Connect!</div>
-										</a>
-									</div>
-									<!-- End big round button -->
-
-								</div> <!-- /.tt-col -->
 							</div><!-- /.tt-row --> 
 
 						</div> <!-- /.tt-section-inner -->
 					</div>
-					<!-- End tt-section -->
 
 
 				</div>

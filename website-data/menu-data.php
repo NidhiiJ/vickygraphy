@@ -3,7 +3,7 @@
 $menu_items = [
     [
         'text' => 'Home',
-        'url'  => 'index.php',
+        'url'  => '/',
         'key'  => 'home'
     ],
     [

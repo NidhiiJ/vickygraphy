@@ -11,7 +11,7 @@ if (!defined('BASE_PATH')) {
         <!-- Left: Logo -->
         <div class="tt-header-col tt-header-col-left">
             <div class="tt-logo"> 
-                <a href="index.php">
+                <a href="/">
                     <img src="assets/img/logo/Secondary-White.png" class="tt-logo-light" alt="Logo">
                     <img src="/assets/img/logo/Secondary-Black.png" class="tt-logo-dark" alt="Logo">
                 </a>
