@@ -290,7 +290,7 @@ hr {
 /* Secondary font */
 .tt-font-alter { 
 	font-family: var(--tt-alter-font);
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 
 

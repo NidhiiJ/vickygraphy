@@ -220,7 +220,7 @@
 
 								<div class="tt-col-lg-5">
 
-									<h2 class="tt-anim-fadeinup" style="font-weight:400" >Hello!</h2>
+									<h2 class="tt-font-alter tt-anim-fadeinup" >Hello!</h2>
 									<div class="text-lg tt-anim-fadeinup">
 										<p>I’m Vicky, a wedding and pre-wedding photographer passionate about preserving moments that matter.</p>
 
