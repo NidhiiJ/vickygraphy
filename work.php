@@ -175,6 +175,9 @@
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
 					<div class="tt-section">
+						<div class="tt-heading tt-heading-xlg tt-heading-center margin-bottom-40">
+								<h2 class="tt-heading-title tt-text-reveal">Featured Films</h2> <!-- You can use <br> to break a text line if needed -->
+						</div>
 						<div class="tt-section-inner">
 
 							<!-- Begin stick portfolioy
@@ -301,6 +304,9 @@
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
 					<div class="tt-section">
+						<div class="tt-heading tt-heading-xlg tt-heading-center margin-bottom-40">
+								<h2 class="tt-heading-title tt-text-reveal">Work Gallery</h2> <!-- You can use <br> to break a text line if needed -->
+						</div>
 						<div class="tt-section-inner max-width-2200">
 
 							<!-- Begin portfolio grid (works combined with tt-Ggrid!)
@@ -326,7 +332,7 @@
 
 									<!-- Begin tt-Ggrid top content 
 									================================ -->
-									<div class="tt-grid-top hide">
+									<div class="tt-grid-top">
 
 										<!-- Begin tt-Ggrid categories/filter classic
 										============================================== -->
@@ -339,10 +345,8 @@
 											-->
 											<div class="ttgr-cat-classic-nav ttgr-cat-classic-center">
 												<ul class="ttgr-cat-classic-list">
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" class="active">All</a></li>
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".lifestyle">Lifestyle</a></li>
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".artistic">Artistic</a></li>
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".wellness">Wellness</a></li>
+													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" class="active">Photos</a></li>
+													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".lifestyle">Videos</a></li>
 												</ul>
 											</div>
 											<!-- End tt-Ggrid categories-->
