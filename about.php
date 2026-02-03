@@ -231,7 +231,7 @@
 										<!-- Begin big round button 
 										============================ -->
 										<div class="tt-big-round-ptn margin-top-20 ">
-											<a href="work.php" class="tt-btn tt-btn-secondary">
+											<a href="work" class="tt-btn tt-btn-secondary">
 												<span data-hover="EXPLORE OUR WORK">EXPLORE OUR WORK</span>
 											</a>
 										</div>
@@ -373,7 +373,7 @@
 									</div>
 									<!-- End tt-Heading -->
 									<!-- Begin header button (hidden on small screens!) -->
-									<a href="contact.php" class="tt-btn tt-btn-secondary">
+									<a href="contact" class="tt-btn tt-btn-secondary">
 										<span data-hover="GET IN TOUCH">GET IN TOUCH</span>
 									</a>
 									<!-- End header button -->

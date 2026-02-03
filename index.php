@@ -793,7 +793,7 @@
 									</div>
 									<!-- End tt-Heading -->
 									<!-- Begin header button (hidden on small screens!) -->
-									<a href="contact.php" class="tt-btn tt-btn-secondary">
+									<a href="contact" class="tt-btn tt-btn-secondary">
 										<span data-hover="GET IN TOUCH">GET IN TOUCH</span>
 									</a>
 									<!-- End header button -->

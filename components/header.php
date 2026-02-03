@@ -35,7 +35,7 @@ if (!defined('BASE_PATH')) {
             </div>
 
             <!-- Begin header button (hidden on small screens!) -->
-            <a href="contact.php" class="tt-btn tt-btn-secondary hide-from-xlg">
+            <a href="contact" class="tt-btn tt-btn-secondary hide-from-xlg">
                 <span data-hover="Contact">Contact</span>
             </a>
             <!-- End header button -->

@@ -286,7 +286,7 @@
 								<h2 class="title tt-text-reveal">Not Convinced Yet?</h2> <!-- You can use <br> to break a text line if needed -->
 							</div>
 
-							<a href="work.php" class="tt-btn tt-btn-secondary">
+							<a href="work" class="tt-btn tt-btn-secondary">
 								<span data-hover="Explore our work">Explore our work</span>
 							</a>
 						</div> <!-- /.tt-section-inner -->
