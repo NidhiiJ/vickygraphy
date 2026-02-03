@@ -124,11 +124,12 @@
 									-->
 									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter full-width padding-85">
 
+										<!-- FAQ 1 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What is an HTML website template?</h4>
+														<h4 class="tt-ac-head-title">How far in advance should we book you?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -137,22 +138,20 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
+												</div>
+											</div>
+											<div class="tt-accordion-content">
+												<p>Wedding dates book quickly, especially during peak season. We recommend booking <strong>6–12 months in advance</strong> to secure your date.</p>
+												<p>Pre-wedding shoots are more flexible, but early booking helps with better planning and location availability.</p>
+											</div>
+										</div>
 
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>The HTML website template comprises pre-designed HTML, CSS, and JavaScript components. It offers only static features (no dynamic features- PHP, MySQL, etc.). The main purpose of the HTML template is to provide design elements. If you lack design skills but want to create your website, converting a pre-designed template to WordPress or another platform with dynamic features is a good idea.</p>
-
-												<p>While the HTML website template can be used as a stand-alone website, it does have some limitations. Customization requires coding skills, at least in HTML and CSS.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
+										<!-- FAQ 2 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">What are the requirements to use this template?</h4>
+														<h4 class="tt-ac-head-title">Do you help with poses if we’re camera-shy?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -161,26 +160,20 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
+												</div>
+											</div>
+											<div class="tt-accordion-content">
+												<p>Absolutely! Most couples aren’t professional models—and that’s perfectly fine.</p>
+												<p>We guide you through natural, comfortable poses and focus on real moments so nothing feels awkward or forced.</p>
+											</div>
+										</div>
 
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>The minimum requirements to use my products are as follows:</p>
-
-												<ul>
-													<li>At least HTML5 and CSS3 knowledge</li>
-													<li>FTP client to transfer files to your web host (I recommend <a href="https://filezilla-project.org" class="tt-link" target="_blank" rel="noopener noreferrer">FileZilla</a>)</li>
-													<li>Code editor for customizations (I recommend <a href="http://www.sublimetext.com" class="tt-link" target="_blank" rel="noopener noreferrer">Sublime Text</a> or <a href="https://code.visualstudio.com/" class="tt-link" target="_blank" rel="noopener noreferrer">Visual Studio Code</a>)</li>
-												</ul>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
+										<!-- FAQ 3 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Which web browsers are compatible with your templates?</h4>
+														<h4 class="tt-ac-head-title">How long does it take to receive our photos?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -189,20 +182,20 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
+												</div>
+											</div>
+											<div class="tt-accordion-content">
+												<p>Pre-wedding galleries are delivered within <strong>2–3 weeks</strong>.</p>
+												<p>Wedding photos are delivered within <strong>6–8 weeks</strong>, with a sneak peek shared shortly after your big day.</p>
+											</div>
+										</div>
 
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>All my templates are compatible with all major latest browsers, such as Edge, Firefox, Opera, Safari, and Chrome.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
+										<!-- FAQ 4 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Do you provide free updates to your templates?</h4>
+														<h4 class="tt-ac-head-title">What is included in your photography packages?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -211,21 +204,20 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
+												</div>
+											</div>
+											<div class="tt-accordion-content">
+												<p>Our packages typically include consultation, professional editing, high-resolution images, and an online gallery.</p>
+												<p>Albums, prints, extended coverage, and cinematic add-ons are available upon request.</p>
+											</div>
+										</div>
 
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>Yes. All my templates include free lifetime updates.</p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-
+										<!-- FAQ 5 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Do you also offer WordPress versions of your HTML templates?</h4>
+														<h4 class="tt-ac-head-title">Do you travel for destination weddings or shoots?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -234,22 +226,20 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
+												</div>
+											</div>
+											<div class="tt-accordion-content">
+												<p>Yes, we love destination weddings and pre-wedding shoots.</p>
+												<p>Travel and accommodation costs may apply depending on the location, and everything is discussed transparently in advance.</p>
+											</div>
+										</div>
 
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>Although my HTML templates may be available as WordPress versions, I do not provide them myself. WordPress versions are provided by some of my partners.</p>
-												<p>* <em><strong>Please note that I'm not responsible for WordPress versions.</strong> For any inquiries or concerns regarding a particular theme, please reach out to the respective theme author directly.</em></p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-
+										<!-- FAQ 6 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
 											<div class="tt-accordion-heading">
 												<div class="tt-ac-head cursor-alter">
 													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">I’m not familiar with HTML and CSS, can I still use your templates?</h4>
+														<h4 class="tt-ac-head-title">What happens if there’s bad weather?</h4>
 													</div>
 												</div>
 												<div class="tt-accordion-caret">
@@ -258,40 +248,16 @@
 															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
 														</svg>
 													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>If you wish to customize your template but are unfamiliar with HTML and CSS, I highly recommend hiring a specialist. This will save you time and ensure a positive experience while using my product. However, if you decide to embark on customizing it yourself, here's a useful starting point: <a href="http://www.w3schools.com/" target="_blank" rel="noopener noreferrer">http://www.w3schools.com/</a></p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-
-										<div class="tt-accordion-item tt-anim-fadeinup">
-											<div class="tt-accordion-heading">
-												<div class="tt-ac-head cursor-alter">
-													<div class="tt-ac-head-inner">
-														<h4 class="tt-ac-head-title">Do you offer customization services?</h4>
-													</div>
 												</div>
-												<div class="tt-accordion-caret">
-													<div class="tt-accordion-caret-inner tt-magnetic-item">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-															<path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
-														</svg>
-													</div>
-												</div> <!-- /.tt-accordion-caret -->
-											</div> <!-- /.tt-accordion-heading -->
-
-											<!-- Use class "is-open" to make this content open by default. Max width class is optional. -->
-											<div class="tt-accordion-content ">
-												<p>We only provide customization services for templates that we have created. If you want some customizations to your template, please do not hesitate to <a href="contact.html">contact me</a>, and we can discuss it.</p>
-
-												<p><em><u>* Please note that this service will charge you extra!</u></em></p>
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
+											</div>
+											<div class="tt-accordion-content">
+												<p>No worries—we always have a plan B.</p>
+												<p>We can reschedule, adjust timing, or change locations if needed. Some of the most magical photos come from unexpected weather.</p>
+											</div>
+									</div>
 
 									</div>
+
 									<!-- End accordion -->
 									
 								
