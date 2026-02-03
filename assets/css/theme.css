@@ -6565,7 +6565,7 @@ body:not(.is-mobile) .ttgr-cat-close-btn {
 	line-height: 1;
 }
 .tt-grid[class*="ttgr-gap-"] .pgi-image-wrap {
-	border-radius: 15px;
+	/* border-radius: 15px; */
 	overflow: hidden;
 }
 .pgi-image-holder {

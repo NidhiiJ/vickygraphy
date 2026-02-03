@@ -79,9 +79,9 @@
 
 			<!-- Begin magic cursor 
 			======================== -->
-			<!-- <div id="magic-cursor">
+			<div id="magic-cursor">
 				<div id="ball"></div>
-			</div> -->
+			</div>
 			<!-- End magic cursor --> 
 
 			<!-- ===================
@@ -100,11 +100,197 @@
 			************************************** -->
 			<div id="tt-content-wrap">
 
+			<!-- ========================
+				///// Begin page header /////
+				============================= 
+				* Use class "ph-full" to enable fullscreen size (no effect on small screens!).
+				* Use class "ph-full-m" to enable fullscreen size on small screens.
+				* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg", "ph-cap-xxlg" "ph-cap-xxxlg" or "ph-cap-xxxxlg" to set caption size (no class = default size).
+				* Use class "ph-center" to align the content to the center. 
+				* Use class "ph-caption-parallax" to enable caption parallax.
+				* Use class "ph-image-parallax" to enable image/video parallax (if image/video exist).
+				* Use class "ph-bg-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only if the image/video exist).
+				-->
+				<div id="page-header" class="ph-full ph-full-m ph-cap-xxxxlg ph-center ph-image-parallax ph-caption-parallax">
+
+					<!-- Begin page header image 
+					============================= 
+					* Use class "ph-image-grayscale" to enable black & white image.
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). 
+					-->
+					<div class="ph-image ph-image-cover-1">
+						<div class="ph-image-inner">
+							<img src="assets/img/page-header/work-header.jpg" alt="Image">
+						</div>
+						<div class="tt-ptr-overlay-top">
+						</div>
+					</div>
+					<!-- End page header image -->
+
+					<!-- Begin page header video 
+					============================= 
+					* Use class "ph-video-grayscale" to enable black & white video.
+					* Use class "ph-video-cover-*" to set video overlay opacity. For example "ph-video-cover-2" or "ph-video-cover-2-5" (up to "ph-video-cover-9-5"). 
+					* Use attribute "loop" in <video> tag to make the video play repeatedly.
+					-->
+					<!-- <div class="ph-video ph-video-cover-1">
+						<div class="ph-video-inner">
+							<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/video-1-1920.jpg">
+								<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/video-1-1920.mp4" type="video/mp4">
+								<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/video-1-1920.webm" type="video/webm">
+							</video>
+						</div>
+					</div> -->
+					<!-- End page header video -->
+						
+					<div class="page-header-inner tt-wrap">
+
+						<div class="ph-caption padding-height-10">
+							<div class="ph-caption-inner">
+								<h2 class="ph-caption-subtitle">VICKYGRAPHY.IN</h2>
+								<h1 class="ph-caption-title" style="font-weight:600; font-style:italic">OUR WORK</h1>
+								<div class="ph-caption-description max-width-700" style="text-transform:uppercase">
+									Discover a showcase of our creative journey
+								</div>
+							</div> <!-- /.ph-caption-inner -->
+						</div> <!-- /.ph-caption -->
+
+					</div> <!-- /.page-header-inner -->
+
+
+				</div>
+				<!-- End page header -->
+
 
 				<!-- *************************************
 				*********** Begin page content *********** 
 				************************************** -->
-				<div id="tt-page-content" class="padding-top-85">
+				<div id="tt-page-content">
+
+				<!-- =======================
+					///// Begin tt-section /////
+					============================ 
+					* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc.
+					* You can use classes "border-top" and "border-bottom" if needed. 
+					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+					-->
+					<div class="tt-section">
+						<div class="tt-section-inner">
+
+							<!-- Begin stick portfolioy
+							============================ -->
+							<div class="tt-sticky-portfolio">
+								
+								<!-- Begin stick portfolioy item
+								================================= 
+								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
+								-->
+								<a href="https://drive.google.com/drive/folders/136XHrJ3LkVrsRQMHecdFauTjxiMiT7t1" class="tt-stp-item" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
+									<div class="tt-stp-item-inner">
+
+										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+										<div class="tt-stp-item-video">
+											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-1.png" class="tt-anim-zoomin">
+												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-1.mp4" type="video/mp4">
+												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-1.webm" type="video/webm">
+											</video>
+										</div> <!-- /.tt-stp-item-video -->	
+
+										<div class="tt-stp-item-caption hide">
+											<h2 class="tt-stp-item-title">Tortillas</h2>
+											<div class="tt-stp-item-categories">
+												<div class="tt-stp-item-category">Lifestyle</div>
+												<!-- <div class="tt-stp-item-category">Varia</div> -->
+											</div> <!-- /.tt-stp-item-categories -->
+										</div> <!-- /.tt-stp-item-caption -->
+									</div> <!-- /.tt-stp-item-inner -->
+								</a>
+								<!-- End sticky portfolio item -->
+
+								<!-- Begin stick portfolioy item
+								================================= 
+								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
+								-->
+								<a href="single-project-2.html" class="tt-stp-item" data-cursor="View<br>Project">
+									<div class="tt-stp-item-inner">
+										
+										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+										<div class="tt-stp-item-video">
+											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-2.jpg" class="tt-anim-zoomin">
+												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-2.mp4" type="video/mp4">
+												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-2.webm" type="video/webm">
+											</video>
+										</div> <!-- /.tt-stp-item-video -->
+
+										<div class="tt-stp-item-caption hide">
+											<h2 class="tt-stp-item-title">Coffee Shop</h2>
+											<div class="tt-stp-item-categories">
+												<div class="tt-stp-item-category">Lifestyle</div>
+												<!-- <div class="tt-stp-item-category">Varia</div> -->
+											</div> <!-- /.tt-stp-item-categories -->
+										</div> <!-- /.tt-stp-item-caption -->
+									</div> <!-- /.tt-stp-item-inner -->
+								</a>
+								<!-- End sticky portfolio item -->
+
+								<!-- Begin stick portfolioy item
+								================================= 
+								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
+								-->
+								<a href="single-project-3.html" class="tt-stp-item" data-cursor="View<br>Project">
+									<div class="tt-stp-item-inner">
+										
+										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+										<div class="tt-stp-item-video">
+											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-3.jpg" class="tt-anim-zoomin">
+												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-3.mp4" type="video/mp4">
+												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-3.webm" type="video/webm">
+											</video>
+										</div> <!-- /.tt-stp-item-video -->
+
+										<div class="tt-stp-item-caption hide">
+											<h2 class="tt-stp-item-title">Fashion<br> Shoot</h2>
+											<div class="tt-stp-item-categories">
+												<div class="tt-stp-item-category">Artistic</div>
+												<!-- <div class="tt-stp-item-category">Varia</div> -->
+											</div> <!-- /.tt-stp-item-categories -->
+										</div> <!-- /.tt-stp-item-caption -->
+									</div> <!-- /.tt-stp-item-inner -->
+								</a>
+								<!-- End sticky portfolio item -->
+
+								<!-- Begin stick portfolioy item
+								================================= 
+								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
+								-->
+								<a href="single-project-4.html" class="tt-stp-item" data-cursor="View<br>Project">
+									<div class="tt-stp-item-inner">
+										
+										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+										<div class="tt-stp-item-video">
+											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-4.jpg" class="tt-anim-zoomin">
+												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-4.mp4" type="video/mp4">
+												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-4.webm" type="video/webm">
+											</video>
+										</div> <!-- /.tt-stp-item-video -->
+
+										<div class="tt-stp-item-caption hide">
+											<h2 class="tt-stp-item-title">Postorganic</h2>
+											<div class="tt-stp-item-categories">
+												<div class="tt-stp-item-category">Artistic</div>
+												<!-- <div class="tt-stp-item-category">Varia</div> -->
+											</div> <!-- /.tt-stp-item-categories -->
+										</div> <!-- /.tt-stp-item-caption -->
+									</div> <!-- /.tt-stp-item-inner -->
+								</a>
+								<!-- End sticky portfolio item -->
+
+							</div>
+							<!-- End sticky portfolio -->
+
+						</div> <!-- /.tt-section-inner -->
+					</div>
+					<!-- End tt-section -->
 
 
 					<!-- =======================
@@ -136,15 +322,15 @@
 								* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
 								* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
 								-->
-								<div class="tt-grid ttgr-layout-3 ttgr-gap-3">
+								<div class="tt-grid ttgr-layout-3 ttgr-gap-1">
 
 									<!-- Begin tt-Ggrid top content 
 									================================ -->
-									<div class="tt-grid-top">
+									<div class="tt-grid-top hide">
 
 										<!-- Begin tt-Ggrid categories/filter classic
 										============================================== -->
-										<div class="tt-grid-categories-classic">
+										<div class="tt-grid-categories-classic ">
 
 											<!-- Begin tt-Ggrid categories
 											===============================
@@ -170,7 +356,7 @@
 
 									<!-- Begin tt-Grid items wrap 
 									============================== -->
-									<div class="tt-grid-items-wrap isotope-items-wrap">
+									<div id="photo-gallery" class="tt-grid-items-wrap isotope-items-wrap">
 
 										<!-- Begin tt-Grid item
 										======================== -->
@@ -182,18 +368,19 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+												<a href="assets/img/work/1.jpg" class="pgi-image-wrap" data-cursor="View" data-fancybox="gallery-459719">
+													<!-- <a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Project"> -->
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-1.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/work/1.jpg" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-1.html">Tortillas</a>
@@ -232,7 +419,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-2.html">Coffee Shop</a>
@@ -274,7 +461,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-3.html">Fashion Shoot</a>
@@ -313,7 +500,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-4.html">Postorganic</a>
@@ -352,7 +539,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-5.html">Embrace Yourself</a>
@@ -391,7 +578,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-6.html">Pink Oasis</a>
@@ -430,7 +617,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-7.html">Turbulent Waters</a>
@@ -469,7 +656,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-8.html">Baby Care</a>
@@ -508,7 +695,7 @@
 														</div> <!-- /.pgi-image-holder -->
 													</a> <!-- /.pgi-image-wrap -->
 
-													<div class="pgi-caption">
+													<div class="pgi-caption hide">
 														<div class="pgi-caption-inner">
 															<h2 class="pgi-title">
 																<a href="single-project-9.html">Dream Spa</a>
@@ -662,10 +849,35 @@
 		<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
 		<script src="assets/vendor/isotope/packery-mode.pkgd.min.js"></script> <!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
 		<script src="assets/vendor/fancybox/js/fancybox.umd.js"></script> <!-- Fancybox (lightbox) JS (https://fancyapps.com/) -->
-		<script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+		<script src="assets/vendor/swiper/js/swiper-bundle.min.js" defer></script> <!-- Swiper JS (https://swiperjs.com/) -->
 
 		<!-- Master JS -->
 		<script src="assets/js/theme.js"></script>
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+
+      const mp4 = video.dataset.src
+		<script>
+document.querySelectorAll('video').forEach(video => {
+  const observer = new IntersectionObserver(entries => {Mp4;
+      const webm = video.dataset.srcWebm;
+
+      if (mp4) {
+        video.innerHTML = `
+          <source src="${mp4}" type="video/mp4">
+          ${webm ? `<source src="${webm}" type="video/webm">` : ''}
+        `;
+        video.load();
+      }
+
+      observer.unobserve(video);
+    });
+  }, { rootMargin: '200px' });
+
+  observer.observe(video);
+});
+</script>
+
 
 
 
