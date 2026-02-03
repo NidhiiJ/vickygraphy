@@ -193,7 +193,7 @@
 
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 										<div class="tt-stp-item-video">
-											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-1.png" class="tt-anim-zoomin">
+											<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/wedding-1.png" class="tt-anim-zoomin">
 												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-1.mp4" type="video/mp4">
 												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-1.webm" type="video/webm">
 											</video>
@@ -219,7 +219,7 @@
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 										<div class="tt-stp-item-video">
-											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-2.jpg" class="tt-anim-zoomin">
+											<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/wedding-2.jpg" class="tt-anim-zoomin">
 												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-2.mp4" type="video/mp4">
 												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-2.webm" type="video/webm">
 											</video>
@@ -245,7 +245,7 @@
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 										<div class="tt-stp-item-video">
-											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-3.jpg" class="tt-anim-zoomin">
+											<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/wedding-3.jpg" class="tt-anim-zoomin">
 												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-3.mp4" type="video/mp4">
 												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-3.webm" type="video/webm">
 											</video>
@@ -271,7 +271,7 @@
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 										<div class="tt-stp-item-video">
-											<video loop muted preload="metadata" poster="assets/vids/1920/wedding-4.jpg" class="tt-anim-zoomin">
+											<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/wedding-4.jpg" class="tt-anim-zoomin">
 												<source src="assets/vids/placeholder.mp4" data-src="assets/vids/1920/wedding-4.mp4" type="video/mp4">
 												<source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/wedding-4.webm" type="video/webm">
 											</video>
