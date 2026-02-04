@@ -17,14 +17,43 @@ $project = $projects[$slug];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?= htmlspecialchars($project['title']) ?> | Project</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="assets/css/helper.css">
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <link rel="stylesheet" href="assets/css/theme-light.css">
-</head>
+		<!-- Title -->
+		<title><?= htmlspecialchars($project['title']) ?> | Project</title>
+
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="description" content="Download Jesper - Creative Portfolio Showcase HTML Website Template that comes with rich features and well-commented code. Made by Themetorium.">
+		<meta name="author" content="themetorium.net">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Favicon (http://www.favicon-generator.org/) -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Your Google Analytics code goes here -->
+
+		<!-- Google fonts (https://fonts.google.com/) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
+		<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
+
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+		<link rel="stylesheet" href="assets/vendor/fancybox/css/fancybox.css"> <!-- Fancybox (lightbox) JS (https://fancyapps.com/) -->
+		<link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
+
+		<!-- Master CSS -->
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+
+		<!-- Light style CSS -->
+		<link rel="stylesheet" href="assets/css/theme-light.css">
+
+	</head>
 
 <body class="tt-transition tt-noise tt-lightmode-default tt-magic-cursor tt-smooth-scroll">
 
@@ -39,7 +68,7 @@ require BASE_PATH . '/components/header.php';
 <div id="tt-content-wrap">
 
 <!-- CONTENT -->
-<div id="tt-page-content ">
+<div id="tt-page-content">
     <div class="padding-top-20-p padding-top-lg-8-p">
         <div class="tt-section">
             <div class="tt-heading tt-heading-xlg tt-heading-center margin-bottom-40">
