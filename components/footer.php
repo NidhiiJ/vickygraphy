@@ -25,21 +25,18 @@
 										<div id="sitemap" class="tt-footer-widget">
 											<h5 class="tt-footer-widget-heading">Sitemap</h5>
 											<ul class="tt-footer-widget-list">
-												<li><a href="about.html" class="tt-link">About Me</a></li>
-												<li><a href="portfolio.html" class="tt-link">My Work</a></li>
-												<li><a href="services.html" class="tt-link">Services</a></li>
-												<li><a href="contact.html" class="tt-link">Contact</a></li>
+												<li><a href="about" class="tt-link">About Me</a></li>
+												<li><a href="work" class="tt-link">My Work</a></li>
+												<li><a href="contact" class="tt-link">Contact</a></li>
+												<li><a href="faq" class="tt-link">FAQ</a></li>
 											</ul> <!-- /.tt-footer-widget-list -->
 										</div> <!-- /.tt-footer-widget -->
 		
 										<div id="contact" class="tt-footer-widget">
 											<h5 class="tt-footer-widget-heading">Contact</h5>
 											<ul class="tt-footer-widget-list">
-												<li>
-													<a href="https://www.google.com/maps/place/121+King+St,+Melbourne+VIC+3000,+Austraalia/@-37.817251,144.955775,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad65d4dd5a05d97:0x3e64f855a564844d!8m2!3d-37.817251!4d144.955775!16s%2Fg%2F11g0g8c54h" class="tt-link" target="_blank" rel="nofollow noopener">121 King Street,<br> Melbourne, Australia</a>
-												</li>
-												<li><a href="mailto:company@email.com" class="tt-link">company@email.com</a></li>
-												<li><a href="tel:+(123)456789000" class="tt-link"> +(123) 456 789 000</a></li>
+												<li><a href="mailto:vickygraphy.in@gmail.com" class="tt-link">vickygraphy.in@gmail.com</a></li>
+												<li><a href="tel:+(91)9096719285" class="tt-link"> +(91) 9096 719285</a></li>
 												<li>
 													<div class="tt-social-buttons">
 														<ul>
