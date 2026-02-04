@@ -163,4 +163,23 @@ return [
             'assets/img/work/images_sorted/location-hub-2/46.jpg',
         ],
     ],
+    'jawai' => [
+        'title' => 'Jawai',
+        'subtitle' => 'VICKYGRAPHY.IN',
+        'description' => 'Discover a showcase of our creative journey',
+        'gallery_key' => 'gallery-jawai',
+        'images' => [
+            'assets/img/work/images_sorted/jawai/DSC00499.jpg',
+            'assets/img/work/images_sorted/jawai/DSC00511.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ05411.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06014 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06165 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06294 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06320 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06353 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06361 copy.jpg',
+            'assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg',
+        ],
+    ],
+
 ];
