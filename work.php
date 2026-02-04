@@ -395,17 +395,48 @@
 													</div>
 													<!-- /.pgi-image-wrap -->
 
-													<!-- Caption -->
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-														<h2 class="pgi-title">
-															<a href="single-project-2.html">Coffee Shop</a>
-														</h2>
-														<div class="pgi-categories-wrap">
-															<div class="pgi-category">Lifestyle</div>
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1opcDWCSLE1_q8lMXqPLE4EBKDE_1gbt3/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-1.png"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
 														</div>
 														</div>
+
 													</div>
+													<!-- /.pgi-image-wrap -->
 
 												</div>
 												<!-- End portfolio grid item -->
@@ -413,6 +444,9 @@
 											</div>
 										</div>
 										<!-- End tt-Grid item -->
+
+										
+
 
 										<!-- Begin tt-Grid item
 										======================== -->
@@ -508,6 +542,92 @@
 										</div>
 										<!-- End tt-Grid item -->
 
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1NKbOuSgVn6TR3zVRWEKK6j6dOIwx7BYd/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-2.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1ncO5OEOsEZXFjRKKc8wDwdyNllL6VYH9/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-3.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
 										<!-- Begin tt-Grid item
 										======================== -->
 										<div class="tt-grid-item isotope-item photo">
@@ -537,6 +657,178 @@
 												<!-- End portfolio grid item -->
 
 											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/14mP0FKPcUz0my1oEUYVKskmmcmM7bdk3/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-5.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1KaF4N9JAOeOoxQvJBsDudzMuOaBGd1YU/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-6.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1ixRAV1gZ4Zq7hsL8GtqwoZKNKQlbjDRk/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-7.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1w5aCSJ53yZs4aWp-OF3wtu2F8erz2AAP/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-8.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
 										</div>
 										<!-- End tt-Grid item -->
 										 
