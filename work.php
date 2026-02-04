@@ -188,7 +188,7 @@
 								================================= 
 								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
 								-->
-								<a href="https://drive.google.com/drive/folders/136XHrJ3LkVrsRQMHecdFauTjxiMiT7t1" class="tt-stp-item" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
+								<a href="https://drive.google.com/file/d/1opcDWCSLE1_q8lMXqPLE4EBKDE_1gbt3/preview" class="tt-stp-item" data-cursor="Play" data-type="iframe" data-fancybox>
 									<div class="tt-stp-item-inner">
 
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
@@ -214,7 +214,7 @@
 								================================= 
 								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
 								-->
-								<a href="single-project-2.html" class="tt-stp-item" data-cursor="View<br>Project">
+								<a href="https://drive.google.com/file/d/1NKbOuSgVn6TR3zVRWEKK6j6dOIwx7BYd/preview" class="tt-stp-item" data-cursor="Play" data-type="iframe" data-fancybox>
 									<div class="tt-stp-item-inner">
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
@@ -240,7 +240,7 @@
 								================================= 
 								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
 								-->
-								<a href="single-project-3.html" class="tt-stp-item" data-cursor="View<br>Project">
+								<a href="https://drive.google.com/file/d/1ncO5OEOsEZXFjRKKc8wDwdyNllL6VYH9/preview" class="tt-stp-item" data-cursor="Play" data-type="iframe" data-fancybox>
 									<div class="tt-stp-item-inner">
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
@@ -266,7 +266,7 @@
 								================================= 
 								* Use class "stpi-bg-is-light" if needed, it makes the caption dark and more visible if you use a very light image.
 								-->
-								<a href="single-project-4.html" class="tt-stp-item" data-cursor="View<br>Project">
+								<a href="https://drive.google.com/file/d/1RB297On03zLHN3o8CkEYs-2jRFR4DDJR/preview" class="tt-stp-item" data-cursor="Play" data-type="iframe" data-fancybox>
 									<div class="tt-stp-item-inner">
 										
 										<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5"). Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
