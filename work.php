@@ -857,32 +857,6 @@
 
 		<!-- Master JS -->
 		<script src="assets/js/theme.js"></script>
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-
-      const mp4 = video.dataset.src
-		<script>
-document.querySelectorAll('video').forEach(video => {
-  const observer = new IntersectionObserver(entries => {Mp4;
-      const webm = video.dataset.srcWebm;
-
-      if (mp4) {
-        video.innerHTML = `
-          <source src="${mp4}" type="video/mp4">
-          ${webm ? `<source src="${webm}" type="video/webm">` : ''}
-        `;
-        video.load();
-      }
-
-      observer.unobserve(video);
-    });
-  }, { rootMargin: '200px' });
-
-  observer.observe(video);
-});
-</script>
-
-
 
 
 	</body>
