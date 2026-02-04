@@ -9760,3 +9760,59 @@ svg.tt-stt-progress-circle path {
 		padding-right: 20px;
 	}
   }
+
+  /* play btn */
+  .pgi-video-play {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	z-index: 2;
+  }
+  
+  .pgi-video-play i {
+	font-size: 56px;
+	color: #fff;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	background-color: color-mix(in oklab, var(--tt-main-color) 70%, transparent);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform .3s ease, background .3s ease;
+  }
+  
+  .pgi-image-wrap:hover .pgi-video-play i {
+	transform: scale(1.1);
+	background: rgba(0,0,0,0.75);
+  }
+
+  .pgi-image-inner {
+	position: relative;
+  }
+  
+  .pgi-video-embed {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	display: none;
+  }
+  
+  .pgi-video-embed iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+  }
+  
+  /* Hide image AFTER video starts */
+  .video-playing .pgi-image img {
+	opacity: 0;
+  }
+  
+  .video-playing .pgi-video-play {
+	display: none;
+  }
+  

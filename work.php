@@ -6,7 +6,7 @@
 	<head>
 
 		<!-- Title -->
-		<title>Portfolio Classic | Jesper - Creative Portfolio Showcase HTML Website Template by Themetorium</title>
+		<title>Work</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -341,8 +341,9 @@
 											-->
 											<div class="ttgr-cat-classic-nav ttgr-cat-classic-center">
 												<ul class="ttgr-cat-classic-list">
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" class="active">Photos</a></li>
-													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".lifestyle">Videos</a></li>
+													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" class="active">All</a></li>
+													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".photo">Photos</a></li>
+													<li class="ttgr-cat-classic-item"><a href="#portfolio-grid" data-offset="80" data-filter=".video">Videos</a></li>
 												</ul>
 											</div>
 											<!-- End tt-Ggrid categories-->
@@ -358,9 +359,64 @@
 									============================== -->
 									<div id="photo-gallery" class="tt-grid-items-wrap isotope-items-wrap">
 
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1RB297On03zLHN3o8CkEYs-2jRFR4DDJR/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/wedding-4.jpg"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+													<!-- Caption -->
+													<div class="pgi-caption hide">
+														<div class="pgi-caption-inner">
+														<h2 class="pgi-title">
+															<a href="single-project-2.html">Coffee Shop</a>
+														</h2>
+														<div class="pgi-categories-wrap">
+															<div class="pgi-category">Lifestyle</div>
+														</div>
+														</div>
+													</div>
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
 										<!-- Begin tt-Grid item
 										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
+										<div class="tt-grid-item isotope-item photo">
 											<div class="ttgr-item-inner">
 
 												<!-- Begin portfolio grid item 
@@ -388,321 +444,6 @@
 															<div class="pgi-categories-wrap">
 																<div class="pgi-category">Lifestyle</div>
 																<!-- <a href="" class="pgi-category">Varia</a -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-2.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-2.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-2.html">Coffee Shop</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item artistic">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-3.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-video-wrap ttgr-height">
-																	<video class="pgi-video" loop muted preload="metadata" poster="assets/vids/800/video-4-800.jpg">
-																		<source src="assets/vids/placeholder.mp4" data-src="assets/vids/800/video-4-800.mp4" type="video/mp4">
-																		<source src="assets/vids/placeholder.webm" data-src="assets/vids/800/video-4-800.webm" type="video/webm">
-																	</video>
-																</figure> <!-- /.pgi-video-wrap -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-3.html">Fashion Shoot</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Artistic</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item artistic">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-4.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-3.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-4.html">Postorganic</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Artistic</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-5.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-4.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-5.html">Embrace Yourself</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-6.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-5.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-6.html">Pink Oasis</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-7.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-6.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-7.html">Turbulent Waters</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Lifestyle</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-8.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-7.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-8.html">Baby Care</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
-															</div> <!-- /.pli-categories-wrap -->
-														</div> <!-- /.pgi-caption-inner -->
-													</div> <!-- /.pgi-caption -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="single-project-9.html" class="pgi-image-wrap" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/portfolio/800/portfolio-8.jpg" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
-													<div class="pgi-caption hide">
-														<div class="pgi-caption-inner">
-															<h2 class="pgi-title">
-																<a href="single-project-9.html">Dream Spa</a>
-															</h2>
-															<div class="pgi-categories-wrap">
-																<div class="pgi-category">Wellness</div>
-																<!-- <div class="pgi-category">Varia</div> -->
 															</div> <!-- /.pli-categories-wrap -->
 														</div> <!-- /.pgi-caption-inner -->
 													</div> <!-- /.pgi-caption -->
@@ -853,6 +594,32 @@
 
 		<!-- Master JS -->
 		<script src="assets/js/theme.js"></script>
+		<script>
+			document.addEventListener('click', function (e) {
+			const trigger = e.target.closest('.video-trigger');
+			if (!trigger) return;
+
+			// prevent double-loading
+			if (trigger.classList.contains('video-playing')) return;
+
+			const iframeSrc = trigger.dataset.iframe;
+			const embed = trigger.querySelector('.pgi-video-embed');
+
+			embed.innerHTML = `
+				<iframe
+				src="${iframeSrc}"
+				allow="picture-in-picture"
+				
+				>
+				</iframe>
+			`;
+
+			embed.style.display = 'block';
+			trigger.classList.add('video-playing');
+			});
+		</script>
+
+
 
 
 	</body>
