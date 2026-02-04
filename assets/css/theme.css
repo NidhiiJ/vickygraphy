@@ -9815,4 +9815,16 @@ svg.tt-stt-progress-circle path {
   .video-playing .pgi-video-play {
 	display: none;
   }
+
+  .pgi-image-title {
+	position: absolute;
+	inset: auto 20px 20px 20px; /* bottom placement */
+	color: #fff;
+	font-family: var(--tt-alter-font);
+	font-size: clamp(16px, 2vw, 22px);
+	font-weight: 400;
+	text-transform: uppercase;
+	z-index: 2;
+	pointer-events: none;
+  }
   
