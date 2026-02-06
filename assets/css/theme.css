@@ -9477,6 +9477,7 @@ body.is-mobile .tt-avlist-item:focus {
 /* Footer logo */
 .tt-footer-logo a { 
 	display: block;
+	margin-bottom: 1rem ;
 }
 .tt-footer-logo img { 
 	max-height: 110px; /* You may need to change the img height to match your logo type! */
@@ -9715,12 +9716,30 @@ svg.tt-stt-progress-circle path {
 	align-items: flex-start;
 }
 
+@media (max-width: 1024px) {
+	.tt-footer-inner {
+		justify-content: center;
+	}
+  }
+  
+
 .footer-links{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8rem;
 	justify-content:center
 }
+
+
+@media (max-width: 767px) {
+	.footer-links {
+		gap: 2rem
+	}
+
+	.tt-footer-widget{
+		text-align: center;
+	}
+  }
 
 /* custom form classes */
 .form-title{
