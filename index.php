@@ -712,7 +712,7 @@
 
 									<!-- Clipper background (video) -->
 									<div class="tt-clipper-bg">
-										<video loop muted autoplay playsinline preload="metadata" poster="assets/img/mock/img1.jpg">
+										<video loop muted autoplay playsinline preload="metadata" poster="assets/vids/1920/wedding-4.jpg">
 											<source src="assets/vids/1920/wedding-4.jpg" data-src="assets/vids/1920/wedding-4.mp4" type="video/mp4">
 											<source src="assets/vids/1920/wedding-4.jpg" data-src="assets/vids/1920/wedding-4.webm" type="video/webm">
 										</video>
