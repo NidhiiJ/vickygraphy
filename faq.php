@@ -124,7 +124,7 @@
 									* Use class "tt-ac-counter" to enable counter.
 									* Use class "tt-ac-borders" to enable borders.
 									-->
-									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter full-width padding-85">
+									<div class="tt-accordion tt-ac-sm tt-ac-borders tt-ac-counter full-width padding-top-85 padding-20 padding-lg-85">
 
 										<!-- FAQ 1 -->
 										<div class="tt-accordion-item tt-anim-fadeinup">
