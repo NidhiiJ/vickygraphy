@@ -703,7 +703,7 @@
 							* Supported media: "YouTube", "Vimeo", ".mp4", ".mp3 (requires data-type="html5video")". Just add your media link to the href="" tag.
 							-->
 							<div class="tt-clipper">
-								<a href="https://www.youtube.com/watch?v=6nGs9iGrpok" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
+								<a href="" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
 
 									<!-- Clipper background (image) -->
 									<!-- <div class="tt-clipper-bg">
@@ -713,8 +713,8 @@
 									<!-- Clipper background (video) -->
 									<div class="tt-clipper-bg">
 										<video loop muted autoplay playsinline preload="metadata" poster="assets/img/mock/img1.jpg">
-											<source src="assets/vids/mock/Slideshow-Loop.mp4" data-src="assets/vids/mock/Slideshow-Loop.mp4" type="video/mp4">
-											<!-- <source src="assets/vids/placeholder.webm" data-src="assets/vids/1920/showreel-1920.webm" type="video/webm"> -->
+											<source src="assets/vids/1920/wedding-4.jpg" data-src="assets/vids/1920/wedding-4.mp4" type="video/mp4">
+											<source src="assets/vids/1920/wedding-4.jpg" data-src="assets/vids/1920/wedding-4.webm" type="video/webm">
 										</video>
 									</div>
 
@@ -782,7 +782,7 @@
 						<div class="tt-section-inner tt-wrap">
 
 							<div class="tt-row margin-bottom-40">
-								<div class="tt-justify-content-between tt-align-items-center full-width">
+								<div class="page-contact-section">
 
 									<!-- Begin tt-Heading 
 									====================== 

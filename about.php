@@ -358,7 +358,7 @@
 						<div class="tt-section-inner tt-wrap">
 
 							<div class="tt-row margin-bottom-40">
-								<div class="tt-justify-content-between tt-align-items-center full-width">
+								<div class="page-contact-section">
 
 									<!-- Begin tt-Heading 
 									====================== 
