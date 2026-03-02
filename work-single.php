@@ -61,7 +61,7 @@ $project = $projects[$slug];
 
 	</head>
 
-<body class="tt-transition tt-noise tt-lightmode-default tt-magic-cursor tt-smooth-scroll">
+<body class="tt-transition tt-noise tt-lightmode-default tt-smooth-scroll">
 
 <main id="body-inner">
 

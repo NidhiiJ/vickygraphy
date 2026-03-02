@@ -54,7 +54,7 @@
 	* Use class "tt-lightmode-default" to enable light style by default (you must clear your browser's cookies and cache first!).
 	* Note: there may be classes that are specific to this page only!
 	-->
-	<body id="body" class="tt-transition tt-noise tt-lightmode-default tt-magic-cursor tt-smooth-scroll">
+	<body id="body" class="tt-transition tt-noise tt-lightmode-default tt-smooth-scroll">
 
 
 		<!-- *************************************
