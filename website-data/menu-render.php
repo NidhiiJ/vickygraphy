@@ -5,7 +5,8 @@ function renderMenu($items, $current_page = '') {
         $hasSubmenu = isset($item['submenu']);
         $isActive = isset($item['key']) && $item['key'] === $current_page;
 
-        echo '<li class="' . ($hasSubmenu ? 'tt-submenu-wrap' : '') . ' ' . ($isActive ? 'active' : '') . '">';
+        $keyClass = isset($item['key']) ? ('menu-item-' . $item['key']) : '';
+        echo '<li class="' . ($hasSubmenu ? 'tt-submenu-wrap' : '') . ' ' . $keyClass . ' ' . ($isActive ? 'active' : '') . '">';
 
         if ($hasSubmenu) {
             echo '<div class="tt-submenu-trigger">';

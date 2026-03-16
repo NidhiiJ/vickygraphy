@@ -6204,3 +6204,8 @@ a.link-pink:hover {
 		flex-direction: column-reverse !important;
 	}
 }
+
+/* Project overrides */
+body:not(.tt-m-menu-on) .tt-main-menu-list > li.menu-item-contact {
+	display: none !important;
+}
