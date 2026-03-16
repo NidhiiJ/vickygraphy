@@ -9908,4 +9908,9 @@ svg.tt-stt-progress-circle path {
 		padding: 0 40px 0 40px;
 	}
   }
+
+  .disable-link{
+	pointer-events: none;
+	cursor: default;
+  }
   

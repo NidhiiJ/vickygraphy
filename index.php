@@ -233,7 +233,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-1.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -260,7 +260,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item pgi-image-is-light">
-													<a href="single-project-2.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -287,7 +287,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-3.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -314,7 +314,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-4.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder ">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -341,7 +341,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-5.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -368,7 +368,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-6.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -396,7 +396,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-7.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -423,7 +423,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item pgi-image-is-light">
-													<a href="single-project-8.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
@@ -450,7 +450,7 @@
 												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
 												-->
 												<div class="portfolio-grid-item">
-													<a href="single-project-9.html" class="pgi-image-wrap" data-cursor="View<br>Project">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
 														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
