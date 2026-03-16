@@ -9653,6 +9653,11 @@ svg.tt-stt-progress-circle path {
 	padding-top: 40px;
 	padding-bottom: 60px;
   }
+@media (max-width: 767px) {
+	.work-preview {
+		padding-top: 0px;
+	}
+  }
   
   .preview-text {
 	text-align: center;
