@@ -16,11 +16,11 @@ $menu_items = [
         'url'  => 'about',
         'key'  => 'about'
     ],
-    // [
-    //     'text' => 'Contact',
-    //     'url'  => 'contact',
-    //     'key'  => 'contact'
-    // ],
+    [
+        'text' => 'Contact',
+        'url'  => 'contact',
+        'key'  => 'contact'
+    ],
     [
         'text' => 'FAQ',
         'url'  => 'faq',

@@ -122,11 +122,11 @@ return [
             'assets/img/work/images_sorted/jaipur/DSC00205.jpg',
             'assets/img/work/images_sorted/jaipur/DSC00208.jpg',
             'assets/img/work/images_sorted/jaipur/DSC00213.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00499.jpg',
+            // 'assets/img/work/images_sorted/jaipur/DSC00499.jpg',
             'assets/img/work/images_sorted/jaipur/DSC00225.jpg',
             'assets/img/work/images_sorted/jaipur/DSC00227.jpg',
             'assets/img/work/images_sorted/jaipur/DSC00239.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00511.jpg',
+            // 'assets/img/work/images_sorted/jaipur/DSC00511.jpg',
         ],
     ],
 
@@ -179,6 +179,8 @@ return [
             'assets/img/work/images_sorted/jawai/RAJ06353 copy.jpg',
             'assets/img/work/images_sorted/jawai/RAJ06361 copy.jpg',
             'assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg',
+            // 'assets/img/work/images_sorted/jawai/DSC00499.jpg',
+            // 'assets/img/work/images_sorted/jawai/DSC00511.jpg'
         ],
     ],
 

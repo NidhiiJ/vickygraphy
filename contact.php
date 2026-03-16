@@ -187,7 +187,7 @@
 
 				<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 border-top">
 					<div class="tt-section-inner tt-wrap" style="text-align:center;">
-						<h2 class="tt-text-reveal">Not Convinced Yet?</h2>
+						<h2 class="tt-font-alter tt-text-reveal">Not Convinced Yet?</h2>
 						<a href="work" class="tt-btn tt-btn-secondary">
 							<span data-hover="Explore our work">Explore our work</span>
 						</a>
