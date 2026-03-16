@@ -5460,6 +5460,40 @@ body:not(.is-mobile) .tt-accordion.tt-ac-hover .tt-accordion-item.active .tt-acc
     width: 30vw;
 }
 
+@media (max-width: 768px) {
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-bottom .tt-mi-item:nth-child(1) {
+		width: 40vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-bottom .tt-mi-item:nth-child(2) {
+		width: 45vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-bottom .tt-mi-item:nth-child(3) {
+		width: 50vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-bottom .tt-mi-item:nth-child(4) {
+		width: 40vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-bottom .tt-mi-item:nth-child(5) {
+		width: 45vw;
+	}
+	
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-top .tt-mi-item:nth-child(1) {
+		width: 40vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-top .tt-mi-item:nth-child(2) {
+		width: 45vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-top .tt-mi-item:nth-child(3) {
+		width: 50vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-top .tt-mi-item:nth-child(4) {
+		width: 40vw;
+	}
+	.tt-moving-images:not(.tt-mi-equal).tt-mi-top .tt-mi-item:nth-child(5) {
+		width: 45vw;
+	}
+}
+
 
 /* ------------------------------------------------------------- *
  * Sticky testimonials 
@@ -9481,6 +9515,12 @@ body.is-mobile .tt-avlist-item:focus {
 }
 .tt-footer-logo img { 
 	max-height: 110px; /* You may need to change the img height to match your logo type! */
+}
+
+@media (max-width: 768px) {
+	.tt-footer-logo img {
+		max-height: 76px;
+	}
 }
 
 /* Footer social buttons */
