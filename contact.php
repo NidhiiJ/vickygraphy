@@ -98,7 +98,7 @@
 					</div>
 				</div>
 
-				<div class="ph-social">
+				<div class="ph-social hide">
 					<ul>
 						<li><a href="https://www.facebook.com/themetorium" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 						<li><a href="https://dribbble.com/Themetorium" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>

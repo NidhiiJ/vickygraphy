@@ -155,7 +155,7 @@
 
 					<!-- Begin social buttons
 					========================== -->
-					<div class="ph-social">
+					<div class="ph-social hide">
 						<ul>
 							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>

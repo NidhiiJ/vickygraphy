@@ -39,13 +39,25 @@
 												<li><a href="tel:+(91)9096719285" class="tt-link"> +(91) 9096 719285</a></li>
 												<li>
 													<div class="tt-social-buttons">
-														<ul>
-															<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
-															<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
-															<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-															<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-															<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
-														</ul>
+													<ul>
+														<li>
+															<a href="https://www.instagram.com/vickygraphy.in" class="tt-magnetic-item" target="_blank" rel="noopener">
+															<i class="fa-brands fa-instagram"></i>
+															</a>
+														</li>
+
+														<li>
+															<a href="https://facebook.com/yourpage" class="tt-magnetic-item" target="_blank" rel="noopener">
+															<i class="fa-brands fa-facebook-f"></i>
+															</a>
+														</li>
+
+														<li>
+															<a href="https://youtube.com/yourchannel" class="tt-magnetic-item" target="_blank" rel="noopener">
+															<i class="fa-brands fa-youtube"></i>
+															</a>
+														</li>
+													</ul>
 													</div> <!-- /.tt-social-buttons -->
 												</li>
 											</ul> <!-- /.tt-footer-widget-list -->
