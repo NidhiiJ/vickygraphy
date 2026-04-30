@@ -46,6 +46,9 @@
 		<!-- Light style CSS -->
 		<link rel="stylesheet" href="assets/css/theme-light.css">
 
+		<!-- Service Worker -->
+		<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js')); }</script>
+
 	</head>
 
 	
@@ -80,7 +83,7 @@
 
 				<div class="ph-image ph-image-cover-1 cover-opacity-3">
 					<div class="ph-image-inner">
-						<img src="assets/img/page-header/contact-header.jpg" alt="Contact Header">
+						<img src="assets/img/page-header/contact-header.jpg" alt="Contact Header" fetchpriority="high">
 					</div>
 				</div>
 

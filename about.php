@@ -46,6 +46,9 @@
 		<!-- Light style CSS -->
 		<link rel="stylesheet" href="assets/css/theme-light.css">
 
+		<!-- Service Worker -->
+		<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js')); }</script>
+
 	</head>
 
 	
@@ -115,7 +118,7 @@
 					-->
 					<div class="ph-image ph-image-cover-1">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/about-header.jpg" alt="Image">
+							<img src="assets/img/page-header/about-header.jpg" alt="Image" fetchpriority="high">
 						</div>
 						<div class="tt-ptr-overlay-top">
 						</div>

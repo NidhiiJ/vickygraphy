@@ -41,6 +41,9 @@
 		<!-- Light style CSS -->
 		<link rel="stylesheet" href="assets/css/theme-light.css">
 
+		<!-- Service Worker -->
+		<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js')); }</script>
+
 	</head>
 
 	
@@ -101,7 +104,7 @@
 					-->
 					<div class="ph-image ph-image-cover-2">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/landing-header.jpg" alt="Image">
+							<img src="assets/img/page-header/landing-header.jpg" alt="Image" fetchpriority="high">
 						</div>
 					</div>
 					<!-- End page header image -->
@@ -238,7 +241,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img1.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img1.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -265,7 +268,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img2.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img2.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -292,7 +295,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img3.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img3.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -319,7 +322,7 @@
 														<div class="pgi-image-holder ">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img4.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img4.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -346,7 +349,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img5.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img5.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -373,7 +376,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img6.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img6.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -401,7 +404,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img7.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img7.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -428,7 +431,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img8.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img8.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -455,7 +458,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img9.jpg" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img9.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -750,16 +753,16 @@
 						<div class="swiper landingSwiper work-swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img2.jpg" alt="">
+									<img src="assets/img/landing-gallery/img2.webp" alt="">
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img8.jpg" alt="">
+									<img src="assets/img/landing-gallery/img8.webp" alt="">
 								</div>
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img6.jpg" alt="">
+									<img src="assets/img/landing-gallery/img6.webp" alt="">
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img4.jpg" alt="">
+									<img src="assets/img/landing-gallery/img4.webp" alt="">
 								</div>
 							</div>
 

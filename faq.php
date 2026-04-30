@@ -46,6 +46,9 @@
 		<!-- Light style CSS -->
 		<link rel="stylesheet" href="assets/css/theme-light.css">
 
+		<!-- Service Worker -->
+		<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js')); }</script>
+
 	</head>
 
 	
