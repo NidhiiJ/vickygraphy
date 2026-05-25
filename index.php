@@ -295,7 +295,7 @@
 														<div class="pgi-image-holder">
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img3.webp" loading="lazy" alt="image">
+																	<img src="assets/img/landing-gallery/img10.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->
@@ -459,6 +459,33 @@
 															<div class="pgi-image-inner tt-anim-zoomin">
 																<figure class="pgi-image ttgr-height">
 																	<img src="assets/img/landing-gallery/img9.webp" loading="lazy" alt="image">
+																</figure> <!-- /.pgi-image -->
+															</div> <!-- /.pgi-image-inner -->
+														</div> <!-- /.pgi-image-holder -->
+													</a> <!-- /.pgi-image-wrap -->
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item
+										======================== -->
+										<div class="tt-grid-item isotope-item wellness mobile-hidden">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item
+												===============================
+												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+												-->
+												<div class="portfolio-grid-item">
+													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+														<div class="pgi-image-holder">
+															<div class="pgi-image-inner tt-anim-zoomin">
+																<figure class="pgi-image ttgr-height">
+																	<img src="assets/img/landing-gallery/img11.webp" loading="lazy" alt="image">
 																</figure> <!-- /.pgi-image -->
 															</div> <!-- /.pgi-image-inner -->
 														</div> <!-- /.pgi-image-holder -->

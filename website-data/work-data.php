@@ -113,22 +113,22 @@ return [
         ],
     ],
 
-    'jaipur' => [
-        'title' => 'jaipur',
-        'subtitle' => 'VICKYGRAPHY.IN',
-        'description' => 'Discover a showcase of our creative journey',
-        'gallery_key' => 'gallery-jaipur',
-        'images' => [
-            'assets/img/work/images_sorted/jaipur/DSC00205.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00208.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00213.jpg',
-            // 'assets/img/work/images_sorted/jaipur/DSC00499.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00225.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00227.jpg',
-            'assets/img/work/images_sorted/jaipur/DSC00239.jpg',
-            // 'assets/img/work/images_sorted/jaipur/DSC00511.jpg',
-        ],
-    ],
+    // 'jaipur' => [
+    //     'title' => 'jaipur',
+    //     'subtitle' => 'VICKYGRAPHY.IN',
+    //     'description' => 'Discover a showcase of our creative journey',
+    //     'gallery_key' => 'gallery-jaipur',
+    //     'images' => [
+    //         'assets/img/work/images_sorted/jaipur/DSC00205.jpg',
+    //         'assets/img/work/images_sorted/jaipur/DSC00208.jpg',
+    //         'assets/img/work/images_sorted/jaipur/DSC00213.jpg',
+    //         // 'assets/img/work/images_sorted/jaipur/DSC00499.jpg',
+    //         'assets/img/work/images_sorted/jaipur/DSC00225.jpg',
+    //         'assets/img/work/images_sorted/jaipur/DSC00227.jpg',
+    //         'assets/img/work/images_sorted/jaipur/DSC00239.jpg',
+    //         // 'assets/img/work/images_sorted/jaipur/DSC00511.jpg',
+    //     ],
+    // ],
 
     'location-hub-1' => [
         'title' => 'Location Hub',
