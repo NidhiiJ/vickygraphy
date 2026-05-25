@@ -861,7 +861,7 @@
 
 									<div class="tt-mi-item">
 										<div class="tt-mi-item-inner">
-											<img src="assets/img/contact-img/img3.jpg" loading="lazy" alt="Image">
+											<img src="assets/img/contact-img/img3.webp" loading="lazy" alt="Image">
 										</div> <!-- /.tt-mi-item-inner -->
 									</div> <!-- /.tt-mi-item -->
 
