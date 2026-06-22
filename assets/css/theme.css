@@ -10324,6 +10324,18 @@ svg.tt-stt-progress-circle path {
   }
 }
 
+@media (min-width: 1920px) {
+  .work-swiper .swiper-slide {
+    height: 56rem;
+    overflow: hidden;
+  }
+
+  .work-swiper .small-slide {
+    /* styles here */
+    height: 52rem;
+  }
+}
+
 .work-slide img {
   width: 100%;
   height: 100%;
