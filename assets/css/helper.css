@@ -455,6 +455,7 @@ p.text-xxxlg {
 /* Full width */
 .full-width { width: 100% !important; }
 
+
 /* Minimum width classes */
 .min-width { min-width: 100% !important; }
 .min-width-100 { min-width: 100px !important; }
@@ -1207,6 +1208,7 @@ a.link-pink:hover {
 .padding-200 { padding: 200px !important; }
 
 /* padding top */
+.padding-top-0 { padding-top: 0px !important; }
 .padding-top-5 { padding-top: 5px !important; }
 .padding-top-10 { padding-top: 10px !important; }
 .padding-top-15 { padding-top: 15px !important; }
@@ -1247,6 +1249,7 @@ a.link-pink:hover {
 .padding-top-200 { padding-top: 200px !important; }
 
 /* padding bottom */
+.padding-bottom-0 { padding-bottom: 0px !important; }
 .padding-bottom-5 { padding-bottom: 5px !important; }
 .padding-bottom-10 { padding-bottom: 10px !important; }
 .padding-bottom-15 { padding-bottom: 15px !important; }
@@ -6200,4 +6203,9 @@ a.link-pink:hover {
 		-ms-flex-direction: column-reverse !important;
 		flex-direction: column-reverse !important;
 	}
+}
+
+/* Project overrides */
+body:not(.tt-m-menu-on) .tt-main-menu-list > li.menu-item-contact {
+	display: none !important;
 }
