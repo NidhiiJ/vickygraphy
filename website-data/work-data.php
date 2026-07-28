@@ -1,5 +1,21 @@
 <?php
 
+/**
+ * Scans assets/img/work/images_sorted/{$folder} and returns all image paths,
+ * naturally sorted (so silvassa2.jpg comes before silvassa10.jpg).
+ */
+function gallery_images(string $folder): array
+{
+    $pattern = __DIR__ . '/../assets/img/work/images_sorted/' . $folder . '/*.{jpg,jpeg,png,JPG,JPEG,PNG}';
+    $files = glob($pattern, GLOB_BRACE);
+    natsort($files);
+
+    return array_values(array_map(
+        fn($file) => 'assets/img/work/images_sorted/' . $folder . '/' . basename($file),
+        $files
+    ));
+}
+
 return [
     'goa' => [
         'title' => 'Goa',
@@ -267,6 +283,14 @@ return [
             'assets/img/work/images_sorted/sahara-star/19.jpg',
             'assets/img/work/images_sorted/sahara-star/20.jpg',
         ],
+    ],
+
+    'silvassa' => [
+        'title' => 'Silvassa',
+        'subtitle' => 'VICKYGRAPHY.IN',
+        'description' => 'Discover a showcase of our creative journey',
+        'gallery_key' => 'gallery-silvassa',
+        'images' => gallery_images('silvassa'),
     ],
 
 ];
