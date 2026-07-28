@@ -2442,6 +2442,7 @@
         start: "top 87%",
         end: () => `+=${ttTextReveal.offsetHeight * 2}`,
         scrub: 1,
+        invalidateOnRefresh: true,
         markers: false,
       },
     });
@@ -2451,6 +2452,17 @@
       stagger: 0.5,
       ease: "none",
     });
+  });
+
+  // Refresh ScrollTrigger after resize settles so the reveal's start/end
+  // positions (based on element height, which changes when text reflows)
+  // are recalculated instead of staying stuck on stale values.
+  let ttTextRevealResizeTimer;
+  $(window).on("resize orientationchange", function () {
+    clearTimeout(ttTextRevealResizeTimer);
+    ttTextRevealResizeTimer = setTimeout(function () {
+      ScrollTrigger.refresh();
+    }, 300);
   });
 
   // tt-Clipper
