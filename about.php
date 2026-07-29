@@ -118,7 +118,7 @@
 					-->
 					<div class="ph-image ph-image-cover-1">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/about-header.webp" alt="Image" fetchpriority="high">
+							<img src="assets/img/page-header/about-header.jpg" alt="Image" fetchpriority="high">
 						</div>
 						<div class="tt-ptr-overlay-top">
 						</div>

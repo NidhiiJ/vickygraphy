@@ -83,7 +83,7 @@
 
 				<div class="ph-image ph-image-cover-1 cover-opacity-3">
 					<div class="ph-image-inner">
-						<img src="assets/img/page-header/contact-header.webp" alt="Contact Header" fetchpriority="high">
+						<img src="assets/img/page-header/contact-header.jpg" alt="Contact Header" fetchpriority="high">
 					</div>
 				</div>
 
@@ -174,7 +174,7 @@
 
 										<div class="tt-anim-fadeinup">
 											<button type="submit" class="tt-btn tt-btn-secondary tt-magnetic-item">
-												<span data-hover="Send Message">Send Message</span>
+												<span data-hover="Send">Send Message</span>
 											</button>
 										</div>
 

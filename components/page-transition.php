@@ -10,14 +10,4 @@
         </div> <!-- /.tt-ptr-prel-content -->
     </div> <!-- /.tt-ptr-preloader -->
 </div>
-<script>
-    // Fail-safe: if the GSAP transition-out animation never runs (e.g. a vendor
-    // script failed to load in time on this page load), the overlay above is
-    // CSS-only visible and would otherwise stay stuck covering the whole page.
-    // Force it away after the animation's expected duration has safely passed.
-    setTimeout(function () {
-        var ttOverlay = document.getElementById("tt-page-transition");
-        if (ttOverlay) { ttOverlay.style.display = "none"; }
-    }, 4000);
-</script>
 <!-- End page transition -->
