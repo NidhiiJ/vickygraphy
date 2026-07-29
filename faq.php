@@ -116,8 +116,12 @@
 					* You can use classes "border-top" and "border-bottom" if needed. 
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
-					<div class="tt-section padding-top-lg-120 padding-top-80 padding-bottom-80">
+					<div class="tt-section padding-top-lg-200 padding-top-80 padding-bottom-80">
 						<div class="tt-section-inner tt-wrap max-width-1600">
+
+						<div class="tt-heading tt-heading-xlg tt-heading-center no-margin-bottom">
+								<h2 class="tt-heading-title tt-text-reveal"><span style="background-size: 157.381% 100%;">Frequently Asked Questions</span></h2> <!-- You can use <br> to break a text line if needed -->
+						</div>
 
 							<div class="tt-row tt-justify-content-center">
 									<!-- Begin accordion 

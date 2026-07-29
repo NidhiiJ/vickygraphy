@@ -3628,7 +3628,8 @@ input[type="range"] {
 .tt-form-creative .tt-form-group {
   position: relative;
   counter-increment: tt-form-creative-counter;
-  padding: 20px 0px 20px 0px;
+  /* padding: 20px 0px 20px 0px; */
+  padding: 8px 0px 8px 0px;
   /* margin: 0 0 15px 0; */
   border-radius: 10px;
   border-width: 2px;
@@ -3669,7 +3670,7 @@ input[type="range"] {
 }
 
 .tt-form-creative .tt-form-control {
-  padding: 10px 5px 15px 0;
+  padding: 15px 5px 15px 0;
   border: none;
   border-radius: 4px;
 }
@@ -4397,6 +4398,7 @@ button {
   border: none;
   border-radius: 100px;
   z-index: 9;
+  min-width: max-content;
 }
 
 .tt-btn-inner {
@@ -10274,7 +10276,8 @@ svg.tt-stt-progress-circle path {
   font-size: clamp(2rem, 7rem, 9rem);
   z-index: 100;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-bottom: -36px;
   padding: 0 24px;
 }
 
@@ -10317,6 +10320,16 @@ svg.tt-stt-progress-circle path {
   overflow: hidden;
 }
 
+@media (max-width: 639px) {
+  .work-swiper .swiper-slide {
+    height: 19rem;
+  }
+
+  .work-swiper .small-slide {
+    height: 17rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .work-swiper .small-slide {
     /* styles here */
@@ -10336,6 +10349,32 @@ svg.tt-stt-progress-circle path {
   }
 }
 
+@media (min-width: 1921px) {
+  .work-swiper .swiper-slide {
+    height: 64rem;
+    overflow: hidden;
+  }
+
+  .work-swiper .small-slide {
+    /* styles here */
+    height: 60rem;
+  }
+}
+
+.work-slide a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.work-slide-image {
+  display: block;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
 .work-slide img {
   width: 100%;
   height: 100%;
@@ -10344,16 +10383,51 @@ svg.tt-stt-progress-circle path {
   display: block;
 }
 
+.work-slide-title {
+  flex: 0 0 auto;
+  display: block;
+  padding-top: 12px;
+  font-family: var(--tt-alter-font);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #291d02;
+}
+
 .work-swiper .swiper-button-next,
 .work-swiper .swiper-button-prev {
-  color: #000;
+  color: #fff;
+  background-color: #291d02;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.work-swiper .swiper-button-next:hover,
+.work-swiper .swiper-button-prev:hover {
+  background-color: #a56e00;
 }
 
 .work-swiper .swiper-button-next::after,
 .work-swiper .swiper-button-prev::after {
-  font-size: 18px;
+  content: '';
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+}
+
+.work-swiper .swiper-button-next::after {
+  transform: translateX(-3px) rotate(-45deg);
+}
+
+.work-swiper .swiper-button-prev::after {
+  transform: translateX(3px) rotate(135deg);
 }
 
 /* contact us section */
@@ -10420,6 +10494,7 @@ svg.tt-stt-progress-circle path {
   font-family: var(--tt-alter-font);
   font-size: clamp(2.6rem, 4vw, 5rem);
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 .tt-form-group {
   margin-bottom: 0 !important;

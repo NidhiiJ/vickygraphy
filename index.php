@@ -104,7 +104,7 @@
 					-->
 					<div class="ph-image ph-image-cover-2">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/landing-header.jpg" alt="Image" fetchpriority="high">
+							<img src="assets/img/page-header/landing-header.webp" alt="Image" fetchpriority="high">
 						</div>
 					</div>
 					<!-- End page header image -->
@@ -733,7 +733,7 @@
 							* Supported media: "YouTube", "Vimeo", ".mp4", ".mp3 (requires data-type="html5video")". Just add your media link to the href="" tag.
 							-->
 							<div class="tt-clipper">
-								<a href="" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
+								<a href="assets/vids/1920/wedding-4.mp4" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
 
 									<!-- Clipper background (image) -->
 									<!-- <div class="tt-clipper-bg">
@@ -780,17 +780,46 @@
 						<div class="swiper landingSwiper work-swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img2.webp" alt="">
+									<a href="/work-single.php?project=vapi" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/vapi/new4.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Vapi</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img8.webp" alt="">
+									<a href="/work-single.php?project=sahara-star" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/sahara-star/15.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Sahara Star</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img6.webp" alt="">
+									<a href="/work-single.php?project=jawai" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Jawai</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img4.webp" alt="">
+									<a href="/work-single.php?project=silvassa" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/silvassa/silvassa74.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Silvassa</span>
+									</a>
 								</div>
+								<div class="swiper-slide work-slide small-slide">
+									<a href="/work-single.php?project=pune" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/pune/pune11.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Pune</span>
+									</a>
+								</div>
+								
 							</div>
 
 							<div class="swiper-button-next"></div>
@@ -855,13 +884,13 @@
 
 									<div class="tt-mi-item">
 										<div class="tt-mi-item-inner">
-											<img src="assets/img/contact-img/img2.png" loading="lazy" alt="Image">
+											<img src="assets/img/contact-img/img2.jpg" loading="lazy" alt="Image">
 										</div> <!-- /.tt-mi-item-inner -->
 									</div> <!-- /.tt-mi-item -->
 
 									<div class="tt-mi-item">
 										<div class="tt-mi-item-inner">
-											<img src="assets/img/contact-img/img3.webp" loading="lazy" alt="Image">
+											<img src="assets/img/contact-img/img3.jpg" loading="lazy" alt="Image">
 										</div> <!-- /.tt-mi-item-inner -->
 									</div> <!-- /.tt-mi-item -->
 
