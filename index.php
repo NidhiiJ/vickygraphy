@@ -780,17 +780,46 @@
 						<div class="swiper landingSwiper work-swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img2.webp" alt="">
+									<a href="/work-single.php?project=vapi" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/vapi/new4.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Vapi</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img8.webp" alt="">
+									<a href="/work-single.php?project=sahara-star" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/sahara-star/15.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Sahara Star</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide small-slide">
-									<img src="assets/img/landing-gallery/img6.webp" alt="">
+									<a href="/work-single.php?project=jawai" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Jawai</span>
+									</a>
 								</div>
 								<div class="swiper-slide work-slide">
-									<img src="assets/img/landing-gallery/img4.webp" alt="">
+									<a href="/work-single.php?project=silvassa" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/silvassa/silvassa74.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Silvassa</span>
+									</a>
 								</div>
+								<div class="swiper-slide work-slide small-slide">
+									<a href="/work-single.php?project=pune" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/pune/pune11.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Pune</span>
+									</a>
+								</div>
+								
 							</div>
 
 							<div class="swiper-button-next"></div>
@@ -855,13 +884,13 @@
 
 									<div class="tt-mi-item">
 										<div class="tt-mi-item-inner">
-											<img src="assets/img/contact-img/img2.png" loading="lazy" alt="Image">
+											<img src="assets/img/contact-img/img2.jpg" loading="lazy" alt="Image">
 										</div> <!-- /.tt-mi-item-inner -->
 									</div> <!-- /.tt-mi-item -->
 
 									<div class="tt-mi-item">
 										<div class="tt-mi-item-inner">
-											<img src="assets/img/contact-img/img3.webp" loading="lazy" alt="Image">
+											<img src="assets/img/contact-img/img3.jpg" loading="lazy" alt="Image">
 										</div> <!-- /.tt-mi-item-inner -->
 									</div> <!-- /.tt-mi-item -->
 

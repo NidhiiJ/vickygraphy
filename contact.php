@@ -174,7 +174,7 @@
 
 										<div class="tt-anim-fadeinup">
 											<button type="submit" class="tt-btn tt-btn-secondary tt-magnetic-item">
-												<span data-hover="Send">Send Message</span>
+												<span data-hover="Send Message">Send Message</span>
 											</button>
 										</div>
 

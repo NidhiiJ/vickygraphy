@@ -3178,7 +3178,7 @@
   // custom
 
   var swiper = new Swiper(".landingSwiper", {
-    slidesPerView: 1.2,
+    slidesPerView: 2.2,
     spaceBetween: 10,
     grabCursor: true,
     loop: true,
@@ -3201,7 +3201,7 @@
         spaceBetween: 20,
       },
       1920: {
-        slidesPerView: 3.6,
+        slidesPerView: 3.9,
         spaceBetween: 20,
       },
     },
