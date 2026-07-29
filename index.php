@@ -733,7 +733,7 @@
 							* Supported media: "YouTube", "Vimeo", ".mp4", ".mp3 (requires data-type="html5video")". Just add your media link to the href="" tag.
 							-->
 							<div class="tt-clipper">
-								<a href="" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
+								<a href="assets/vids/1920/wedding-4.mp4" class="tt-clipper-inner" data-cursor="Play<br>Reel" data-fancybox data-caption="My awesome showreel. :)">
 
 									<!-- Clipper background (image) -->
 									<!-- <div class="tt-clipper-bg">
