@@ -104,7 +104,7 @@
 					-->
 					<div class="ph-image ph-image-cover-2">
 						<div class="ph-image-inner">
-							<img src="assets/img/page-header/landing-header.jpg" alt="Image" fetchpriority="high">
+							<img src="assets/img/page-header/landing-header.webp" alt="Image" fetchpriority="high">
 						</div>
 					</div>
 					<!-- End page header image -->
