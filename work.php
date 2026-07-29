@@ -377,6 +377,133 @@
 
 													<!-- Video trigger wrapper -->
 													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1YoRn9IqiYZfLeEA2kkAMsw-HZxlC9Y1-/preview">
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/new-video-3.png"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1B1UW_G8MaoZ1ClIPQqcp65uYqDWZ0TjN/preview">
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/new-video-2.png"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
+														data-iframe="https://drive.google.com/file/d/1IYuRaw6bM-TImubXrqgjL0nrRrp2tSxn/preview">
+
+														<div class="pgi-image-holder">
+														<div class="pgi-image-inner tt-anim-zoomin">
+
+															<!-- Image (KEPT for height & responsiveness) -->
+															<figure class="pgi-image ttgr-height">
+															<img
+																src="assets/vids/1920/new-video-1.png"
+																loading="lazy"
+																alt="image">
+															</figure>
+
+															<!-- Iframe overlay (injected on click) -->
+															<div class="pgi-video-embed"></div>
+
+															<!-- Play button -->
+															<span class="pgi-video-play">
+																<i class="fa-solid fa-play"></i>
+															</span>
+
+														</div>
+														</div>
+
+													</div>
+													<!-- /.pgi-image-wrap -->
+
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div>
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item -->
+										<div class="tt-grid-item isotope-item video">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item -->
+												<div class="portfolio-grid-item">
+
+													<!-- Video trigger wrapper -->
+													<div class="pgi-image-wrap video-trigger"
 														data-iframe="https://drive.google.com/file/d/1SNXzdlm-VM0VZjsYnqiGkpWO1ejjF4da/preview">
 
 														<div class="pgi-image-holder">
