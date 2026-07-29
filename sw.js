@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vickygraphy-v2';
+const CACHE_NAME = 'vickygraphy-v1';
 
 const STATIC_ASSETS = [
     '/assets/css/helper.css',
@@ -57,18 +57,13 @@ self.addEventListener('fetch', event => {
         event.respondWith(
             caches.match(request).then(cached => {
                 if (cached) return cached;
-                return fetch(request)
-                    .then(response => {
-                        if (response.ok) {
-                            const clone = response.clone();
-                            caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-                        }
-                        return response;
-                    })
-                    // A dropped/failed network request must not turn into a hard
-                    // failure for critical assets (gsap/jquery/theme.js) - fall
-                    // back to a plain network fetch outside the SW's control.
-                    .catch(() => fetch(request));
+                return fetch(request).then(response => {
+                    if (response.ok) {
+                        const clone = response.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
+                    }
+                    return response;
+                });
             })
         );
     }

@@ -1,21 +1,5 @@
 <?php
 
-/**
- * Scans assets/img/work/images_sorted/{$folder} and returns all image paths,
- * naturally sorted (so silvassa2.jpg comes before silvassa10.jpg).
- */
-function gallery_images(string $folder): array
-{
-    $pattern = __DIR__ . '/../assets/img/work/images_sorted/' . $folder . '/*.{jpg,jpeg,png,JPG,JPEG,PNG}';
-    $files = glob($pattern, GLOB_BRACE);
-    natsort($files);
-
-    return array_values(array_map(
-        fn($file) => 'assets/img/work/images_sorted/' . $folder . '/' . basename($file),
-        $files
-    ));
-}
-
 return [
     'goa' => [
         'title' => 'Goa',
@@ -110,17 +94,6 @@ return [
             'assets/img/work/images_sorted/vapi/79.jpg',
             'assets/img/work/images_sorted/vapi/80.jpg',
             'assets/img/work/images_sorted/vapi/81.jpg',
-            'assets/img/work/images_sorted/vapi/new1.jpg',
-            'assets/img/work/images_sorted/vapi/new2.jpg',
-            'assets/img/work/images_sorted/vapi/new3.jpg',
-            'assets/img/work/images_sorted/vapi/new4.jpg',
-            'assets/img/work/images_sorted/vapi/new5.jpg',
-            'assets/img/work/images_sorted/vapi/new6.jpg',
-            'assets/img/work/images_sorted/vapi/new7.jpg',
-            'assets/img/work/images_sorted/vapi/new8.jpg',
-            'assets/img/work/images_sorted/vapi/new9.jpg',
-            'assets/img/work/images_sorted/vapi/new10.jpg',
-            'assets/img/work/images_sorted/vapi/new11.jpg',
         ],
     ],
 
@@ -209,88 +182,6 @@ return [
             // 'assets/img/work/images_sorted/jawai/DSC00499.jpg',
             // 'assets/img/work/images_sorted/jawai/DSC00511.jpg'
         ],
-    ],
-
-    'pune' => [
-        'title' => 'Pune',
-        'subtitle' => 'VICKYGRAPHY.IN',
-        'description' => 'Discover a showcase of our creative journey',
-        'gallery_key' => 'gallery-pune',
-        'images' => [
-            'assets/img/work/images_sorted/pune/pune1.jpg',
-            'assets/img/work/images_sorted/pune/pune2.jpg',
-            'assets/img/work/images_sorted/pune/pune3.jpg',
-            'assets/img/work/images_sorted/pune/pune4.jpg',
-            'assets/img/work/images_sorted/pune/pune5.jpg',
-            'assets/img/work/images_sorted/pune/pune6.jpg',
-            'assets/img/work/images_sorted/pune/pune7.jpg',
-            'assets/img/work/images_sorted/pune/pune8.jpg',
-            'assets/img/work/images_sorted/pune/pune9.jpg',
-            'assets/img/work/images_sorted/pune/pune10.jpg',
-            'assets/img/work/images_sorted/pune/pune11.jpg',
-            // 'assets/img/work/images_sorted/jawai/DSC00499.jpg',
-            // 'assets/img/work/images_sorted/jawai/DSC00511.jpg'
-        ],
-    ],
-
-    'satara-sangam-mahuli' => [
-        'title' => 'Satara Sangam Mahuli',
-        'subtitle' => 'VICKYGRAPHY.IN',
-        'description' => 'Discover a showcase of our creative journey',
-        'gallery_key' => 'gallery-satara-sangam-mahuli',
-        'images' => [
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm1.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm2.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm3.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm4.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm5.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm6.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm7.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm8.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm9.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm10.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm11.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm12.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm13.jpg',
-            'assets/img/work/images_sorted/satara-sangam-mahuli/ssm14.jpg',
-        ],
-    ],
-
-    'sahara-star' => [
-        'title' => 'Sahara Star',
-        'subtitle' => 'VICKYGRAPHY.IN',
-        'description' => 'Discover a showcase of our creative journey',
-        'gallery_key' => 'gallery-sahara-star',
-        'images' => [
-            'assets/img/work/images_sorted/sahara-star/1.jpg',
-            'assets/img/work/images_sorted/sahara-star/2.jpg',
-            'assets/img/work/images_sorted/sahara-star/3.jpg',
-            'assets/img/work/images_sorted/sahara-star/4.jpg',
-            'assets/img/work/images_sorted/sahara-star/5.jpg',
-            'assets/img/work/images_sorted/sahara-star/6.jpg',
-            'assets/img/work/images_sorted/sahara-star/7.jpg',
-            'assets/img/work/images_sorted/sahara-star/8.jpg',
-            'assets/img/work/images_sorted/sahara-star/9.jpg',
-            'assets/img/work/images_sorted/sahara-star/10.jpg',
-            'assets/img/work/images_sorted/sahara-star/11.jpg',
-            'assets/img/work/images_sorted/sahara-star/12.jpg',
-            'assets/img/work/images_sorted/sahara-star/13.jpg',
-            'assets/img/work/images_sorted/sahara-star/14.jpg',
-            'assets/img/work/images_sorted/sahara-star/15.jpg',
-            'assets/img/work/images_sorted/sahara-star/16.jpg',
-            'assets/img/work/images_sorted/sahara-star/17.jpg',
-            'assets/img/work/images_sorted/sahara-star/18.jpg',
-            'assets/img/work/images_sorted/sahara-star/19.jpg',
-            'assets/img/work/images_sorted/sahara-star/20.jpg',
-        ],
-    ],
-
-    'silvassa' => [
-        'title' => 'Silvassa',
-        'subtitle' => 'VICKYGRAPHY.IN',
-        'description' => 'Discover a showcase of our creative journey',
-        'gallery_key' => 'gallery-silvassa',
-        'images' => gallery_images('silvassa'),
     ],
 
 ];
