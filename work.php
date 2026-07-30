@@ -883,7 +883,7 @@
 
 													<!-- Video trigger wrapper -->
 													<div class="pgi-image-wrap video-trigger"
-														data-iframe="https://drive.google.com/file/d/14mP0FKPcUz0my1oEUYVKskmmcmM7bdk3/preview">
+														data-iframe="https://drive.google.com/file/d/1RB297On03zLHN3o8CkEYs-2jRFR4DDJR/preview">
 
 														<div class="pgi-image-holder">
 														<div class="pgi-image-inner tt-anim-zoomin">
@@ -891,7 +891,7 @@
 															<!-- Image (KEPT for height & responsiveness) -->
 															<figure class="pgi-image ttgr-height">
 															<img
-																src="assets/vids/1920/wedding-5.jpg"
+																src="assets/vids/1920/wedding-4.jpg"
 																loading="lazy"
 																alt="image">
 															</figure>
@@ -1185,7 +1185,7 @@
 
 													<!-- Video trigger wrapper -->
 													<div class="pgi-image-wrap video-trigger"
-														data-iframe="https://drive.google.com/file/d/1RB297On03zLHN3o8CkEYs-2jRFR4DDJR/preview">
+														data-iframe="https://drive.google.com/file/d/14mP0FKPcUz0my1oEUYVKskmmcmM7bdk3/preview">
 
 														<div class="pgi-image-holder">
 														<div class="pgi-image-inner tt-anim-zoomin">
@@ -1193,7 +1193,7 @@
 															<!-- Image (KEPT for height & responsiveness) -->
 															<figure class="pgi-image ttgr-height">
 															<img
-																src="assets/vids/1920/wedding-4.jpg"
+																src="assets/vids/1920/wedding-5.jpg"
 																loading="lazy"
 																alt="image">
 															</figure>

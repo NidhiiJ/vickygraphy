@@ -103,10 +103,9 @@
 
 				<div class="ph-social hide">
 					<ul>
-						<li><a href="https://www.facebook.com/themetorium" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 						<li><a href="https://dribbble.com/Themetorium" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
 						<li><a href="https://www.behance.net/Themetorium" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-						<li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+						<li><a href="https://www.instagram.com/vickygraphy.in" class="tt-social-link-labeled" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
 					</ul>
 				</div>
 
@@ -173,7 +172,7 @@
 										</div>
 
 										<div class="tt-anim-fadeinup">
-											<button type="submit" class="tt-btn tt-btn-secondary tt-magnetic-item">
+											<button type="submit" class="tt-btn tt-btn-secondary tt-magnetic-item tt-btn-no-hmargin">
 												<span data-hover="Send Message">Send Message</span>
 											</button>
 										</div>
