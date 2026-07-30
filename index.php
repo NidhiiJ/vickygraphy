@@ -779,31 +779,7 @@
 
 						<div class="swiper landingSwiper work-swiper">
 							<div class="swiper-wrapper">
-								<div class="swiper-slide work-slide small-slide">
-									<a href="/work-single.php?project=vapi" data-cursor="View">
-										<span class="work-slide-image">
-											<img src="assets/img/work/images_sorted/vapi/new4.jpg" alt="">
-										</span>
-										<span class="work-slide-title">Vapi</span>
-									</a>
-								</div>
-								<div class="swiper-slide work-slide">
-									<a href="/work-single.php?project=sahara-star" data-cursor="View">
-										<span class="work-slide-image">
-											<img src="assets/img/work/images_sorted/sahara-star/15.jpg" alt="">
-										</span>
-										<span class="work-slide-title">Sahara Star</span>
-									</a>
-								</div>
-								<div class="swiper-slide work-slide small-slide">
-									<a href="/work-single.php?project=jawai" data-cursor="View">
-										<span class="work-slide-image">
-											<img src="assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg" alt="">
-										</span>
-										<span class="work-slide-title">Jawai</span>
-									</a>
-								</div>
-								<div class="swiper-slide work-slide">
+							<div class="swiper-slide work-slide">
 									<a href="/work-single.php?project=silvassa" data-cursor="View">
 										<span class="work-slide-image">
 											<img src="assets/img/work/images_sorted/silvassa/silvassa74.jpg" alt="">
@@ -819,6 +795,32 @@
 										<span class="work-slide-title">Pune</span>
 									</a>
 								</div>
+								<div class="swiper-slide work-slide">
+									<a href="/work-single.php?project=sahara-star" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/sahara-star/15.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Sahara Star</span>
+									</a>
+								</div>
+								<div class="swiper-slide work-slide small-slide">
+									<a href="/work-single.php?project=vapi" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/vapi/new4.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Vapi</span>
+									</a>
+								</div>
+								
+								<div class="swiper-slide work-slide">
+									<a href="/work-single.php?project=jawai" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/jawai/RAJ06787 copy.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Jawai</span>
+									</a>
+								</div>
+								
 								
 							</div>
 
