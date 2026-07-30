@@ -165,11 +165,9 @@
 					========================== -->
 					<div class="ph-social hide">
 						<ul>
-							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
 							<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-							<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-							<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
+							<li><a href="https://www.instagram.com/vickygraphy.in" class="tt-magnetic-item tt-social-link-labeled" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
 						</ul>
 					</div>
 					<!-- End social buttons -->
@@ -222,280 +220,166 @@
 								=================== -->
 								<div class="tt-grid ttgr-layout-3 ttgr-gap-1 ttgr-not-cropped">
 
-									<!-- Begin tt-Grid items wrap 
-									============================== -->
-									<div class="tt-grid-items-wrap isotope-items-wrap">
+									<!-- Begin tt-Grid items wrap
+									==============================
+									Note: fixed 3-column layout (not Isotope/Packery) so the arrangement
+									stays exactly as designed regardless of individual image dimensions.
+									-->
+									<div class="tt-grid-items-wrap ttgr-fixed-columns">
 
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img1.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+										<div class="ttgr-fixed-col">
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img1.webp" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item pgi-image-is-light">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img2.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder ">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img4.jpg" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item artistic">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img10.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item pgi-image-is-light">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img8.jpg" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
+											</div>
 										</div>
-										<!-- End tt-Grid item -->
+										<!-- End column 1 -->
 
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item artistic">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder ">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img4.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+										<div class="ttgr-fixed-col">
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item pgi-image-is-light">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img2.jpg" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img5.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img7.webp" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img6.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img9.jpg" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
+											</div>
 										</div>
-										<!-- End tt-Grid item -->
+										<!-- End column 2 -->
 
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item lifestyle">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img7.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+										<div class="ttgr-fixed-col">
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img10.webp" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item pgi-image-is-light">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img8.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img5.webp" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item 
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img9.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
+											<div class="tt-grid-item">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner tt-anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/landing-gallery/img6.webp" loading="lazy" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+													</div>
 												</div>
-												<!-- End portfolio grid item -->
+											</div>
 
-											</div> <!-- /.ttgr-item-inner -->
 										</div>
-										<!-- End tt-Grid item -->
-
-										<!-- Begin tt-Grid item
-										======================== -->
-										<div class="tt-grid-item isotope-item wellness mobile-hidden">
-											<div class="ttgr-item-inner">
-
-												<!-- Begin portfolio grid item
-												===============================
-												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
-												-->
-												<div class="portfolio-grid-item">
-													<a href="" class="pgi-image-wrap disable-link" data-cursor="View<br>Project">
-														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
-														<div class="pgi-image-holder">
-															<div class="pgi-image-inner tt-anim-zoomin">
-																<figure class="pgi-image ttgr-height">
-																	<img src="assets/img/landing-gallery/img11.webp" loading="lazy" alt="image">
-																</figure> <!-- /.pgi-image -->
-															</div> <!-- /.pgi-image-inner -->
-														</div> <!-- /.pgi-image-holder -->
-													</a> <!-- /.pgi-image-wrap -->
-												</div>
-												<!-- End portfolio grid item -->
-
-											</div> <!-- /.ttgr-item-inner -->
-										</div>
-										<!-- End tt-Grid item -->
+										<!-- End column 3 -->
 
 									</div>
 									<!-- End tt-Grid items wrap  -->
@@ -826,6 +710,12 @@
 
 							<div class="swiper-button-next"></div>
 							<div class="swiper-button-prev"></div>
+						</div>
+
+						<div class="tt-justify-content-center margin-top-40">
+							<a href="work" class="tt-btn tt-btn-secondary tt-magnetic-item">
+								<span data-hover="SHOW ALL WORK">SHOW ALL WORK</span>
+							</a>
 						</div>
 					</div>
 					<!-- OUR WORK END -->

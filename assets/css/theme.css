@@ -895,7 +895,7 @@ h6.tt-text-uppercase {
 }
 @media (min-width: 992px) {
   .tt-heading.tt-heading-xxlg .tt-heading-subtitle {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
   .tt-heading.tt-heading-xxlg .tt-heading-title + p,
   .tt-heading.tt-heading-xxlg .tt-heading-subtitle + p {
@@ -3773,26 +3773,26 @@ input[type="range"] {
 
 @media (min-width: 768px) {
   .tt-form-lg label:not(.tt-btn) {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .tt-form-lg .tt-form-control {
-    font-size: 21px;
+    font-size: 18px;
   }
   .tt-form-lg ::placeholder {
-    font-size: 21px;
+    font-size: 18px;
   }
   .tt-form-lg ::-webkit-input-placeholder {
-    font-size: 21px;
+    font-size: 18px;
   }
   .tt-form-lg :-moz-placeholder {
-    font-size: 21px;
+    font-size: 18px;
   }
   .tt-form-lg ::-moz-placeholder {
-    font-size: 21px;
+    font-size: 18px;
   }
   .tt-form-lg :-ms-input-placeholder {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 
@@ -4568,6 +4568,11 @@ body:not(.is-mobile) .tt-btn:hover .tt-btn-line {
 }
 
 /* Button disabled */
+.tt-btn-no-hmargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .tt-btn.tt-btn-disabled {
   opacity: 0.4;
   cursor: not-allowed;
@@ -4684,6 +4689,15 @@ body:not(.tt-magic-cursor) .tt-social-buttons > ul:hover > li a {
 }
 body:not(.tt-magic-cursor) .tt-social-buttons > ul > li a:hover {
   opacity: 1;
+}
+
+/* Social link with an icon + text label (instead of icon-only) */
+.tt-social-buttons > ul > li a.tt-social-link-labeled,
+.ph-social > ul > li a.tt-social-link-labeled {
+  width: auto;
+  height: auto;
+  gap: 8px;
+  padding: 12px 16px;
 }
 
 /* ------------------------------------------------------------- *
@@ -6269,6 +6283,48 @@ body:not(.is-mobile) .ttgr-cat-close-btn {
   position: relative;
   float: left;
   width: 100%;
+}
+
+/* Fixed-column grid (explicit columns instead of Isotope/Packery, so the
+   arrangement stays exactly as designed regardless of each image's own
+   dimensions/aspect ratio). Used by the homepage landing gallery. */
+.ttgr-fixed-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  column-gap: 0.46vw;
+}
+@media (max-width: 1024px) {
+  .ttgr-fixed-columns {
+    column-gap: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .ttgr-fixed-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .ttgr-fixed-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Column-to-column gap now comes from "column-gap" above, so drop the
+   left/right gutter margin ".ttgr-gap-1" normally puts on every item
+   (it's still needed for the bottom/vertical gutter between stacked
+   items within the same column). */
+.tt-grid.ttgr-gap-1 .ttgr-fixed-col .ttgr-item-inner {
+  margin-left: 0;
+  margin-right: 0;
+}
+.ttgr-fixed-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.tt-grid.ttgr-layout-3 .ttgr-fixed-col .tt-grid-item {
+  width: 100%;
+  float: none;
 }
 .ttgr-item-inner {
   position: relative;
@@ -10129,6 +10185,9 @@ body.is-mobile .tt-avlist-item:focus {
   .tt-footer-logo img {
     max-height: 76px;
   }
+  .tt-footer-logo {
+    margin-bottom: 36px;
+  }
 }
 
 /* Footer social buttons */
@@ -10295,12 +10354,13 @@ svg.tt-stt-progress-circle path {
 
 @media (max-width: 767px) {
   .preview-text {
-    margin-bottom: 20px;
+    margin-bottom: -14px;
   }
 
   /* mobile styles here */
   .preview-text span {
     font-size: 4rem;
+    margin-right: 0;
   }
   .preview-text .no-sm {
     display: none;
@@ -10387,8 +10447,9 @@ svg.tt-stt-progress-circle path {
   flex: 0 0 auto;
   display: block;
   padding-top: 12px;
-  font-family: var(--tt-alter-font);
-  font-size: 1.8rem;
+  font-family: var(--tt-body-font);
+  font-weight: 500;
+  font-size: clamp(1.1rem, 0.9rem + 0.8vw, 1.8rem);
   text-transform: uppercase;
   text-align: center;
   color: #291d02;
@@ -10527,6 +10588,12 @@ svg.tt-stt-progress-circle path {
   }
 }
 
+@media (max-width: 767px) {
+  .about-intro-section {
+    padding-bottom: 40px !important;
+  }
+}
+
 /* play btn */
 .pgi-video-play {
   position: absolute;
@@ -10602,6 +10669,7 @@ svg.tt-stt-progress-circle path {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {

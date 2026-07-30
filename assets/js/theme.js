@@ -288,10 +288,14 @@
       }
     }
 
-    // Force the page to reload on the browser by clicking the "Back" button
+    // Reset the page transition overlay when restored from the
+    // back/forward cache, without reloading the page, so the scroll
+    // position the user navigated from is preserved.
     window.onpageshow = function (event) {
       if (event.persisted) {
-        window.location.reload();
+        gsap.set([$tt_pageTransition, $tt_ptrOverlayTop, $tt_ptrOverlayBottom], {
+          clearProps: "all",
+        });
       }
     };
 
@@ -3156,9 +3160,14 @@
   });
 
   // Force page scroll position to top on refresh (do not remove!)
+  // Skip when the page is being cached for back/forward navigation
+  // (e.persisted) so returning via the browser's Back button restores
+  // the scroll position instead of jumping to the top.
   // =========================
-  $(window).on("pagehide", function () {
-    $(window).scrollTop(0);
+  $(window).on("pagehide", function (e) {
+    if (!e.originalEvent.persisted) {
+      $(window).scrollTop(0);
+    }
   });
 
   // Set the footer copyright year to update automatically.
