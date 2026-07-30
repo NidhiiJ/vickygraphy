@@ -1,0 +1,20 @@
+# Dependencies
+/vendor/
+
+# Security and Secrets
+.env
+.env.*
+!.env.example
+
+# Environment / Logs
+*.log
+
+# OS & IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Git worktrees
+.worktrees/
