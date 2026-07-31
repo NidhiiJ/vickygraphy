@@ -37,29 +37,7 @@
 											<ul class="tt-footer-widget-list">
 												<li><a href="mailto:vickygraphy.in@gmail.com" class="tt-link">vickygraphy.in@gmail.com</a></li>
 												<li><a href="tel:+(91)9096719285" class="tt-link"> +(91) 9096 719285</a></li>
-												<li>
-													<div class="tt-social-buttons">
-													<ul>
-														<li>
-															<a href="https://www.instagram.com/vickygraphy.in" class="tt-magnetic-item" target="_blank" rel="noopener">
-															<i class="fa-brands fa-instagram"></i>
-															</a>
-														</li>
-
-														<li>
-															<a href="https://facebook.com/yourpage" class="tt-magnetic-item" target="_blank" rel="noopener">
-															<i class="fa-brands fa-facebook-f"></i>
-															</a>
-														</li>
-
-														<li>
-															<a href="https://youtube.com/yourchannel" class="tt-magnetic-item" target="_blank" rel="noopener">
-															<i class="fa-brands fa-youtube"></i>
-															</a>
-														</li>
-													</ul>
-													</div> <!-- /.tt-social-buttons -->
-												</li>
+												<li><a href="https://www.instagram.com/vickygraphy.in" class="tt-link" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
 											</ul> <!-- /.tt-footer-widget-list -->
 										</div> <!-- /.tt-footer-widget -->
 
@@ -67,7 +45,7 @@
 						</div> <!-- /.tt-section-inner -->
 					</footer>
 					<div class="border-top tt-justify-content-center padding-top-20 padding-bottom-20">
-						Desgined and Developed by <a target="_blank" href="https://www.flayk.in">&nbsp;Flayk</a>
+						Designed and Developed by <a target="_blank" href="https://www.flayk.in">&nbsp;Flayk</a>
 					</div>
 				</div>
 				<!-- End tt-footer -->

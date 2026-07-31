@@ -160,11 +160,9 @@
 					========================== -->
 					<div class="ph-social hide">
 						<ul>
-							<li><a href="https://www.facebook.com/themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
 							<li><a href="https://dribbble.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a></li>
 							<li><a href="https://www.behance.net/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-behance"></i></a></li>
-							<li><a href="https://www.youtube.com/" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
-							<!-- <li><a href="https://x.com/Themetorium" class="tt-magnetic-item" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
+							<li><a href="https://www.instagram.com/vickygraphy.in" class="tt-magnetic-item tt-social-link-labeled" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
 						</ul>
 					</div>
 					<!-- End social buttons -->
@@ -186,7 +184,7 @@
 					* You can use classes "border-top" and "border-bottom" if needed. 
 					* Note: Each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 					-->
-					<div class="tt-section padding-top-100 no-padding-bottom padding-bottom-xlg-40">
+					<div class="tt-section padding-top-100 no-padding-bottom padding-bottom-xlg-40 about-intro-section">
 						<div class="tt-section-inner tt-wrap">
 
 							<div class="tt-row tt-lg-row-reverse">
