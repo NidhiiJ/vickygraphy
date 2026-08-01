@@ -663,20 +663,20 @@
 
 						<div class="swiper landingSwiper work-swiper">
 							<div class="swiper-wrapper">
-							<div class="swiper-slide work-slide">
-									<a href="/work-single.php?project=silvassa" data-cursor="View">
-										<span class="work-slide-image">
-											<img src="assets/img/work/images_sorted/silvassa/silvassa74.jpg" alt="">
-										</span>
-										<span class="work-slide-title">Silvassa</span>
-									</a>
-								</div>
-								<div class="swiper-slide work-slide small-slide">
+								<div class="swiper-slide work-slide">
 									<a href="/work-single.php?project=pune" data-cursor="View">
 										<span class="work-slide-image">
 											<img src="assets/img/work/images_sorted/pune/pune11.jpg" alt="">
 										</span>
 										<span class="work-slide-title">Pune</span>
+									</a>
+								</div>
+								<div class="swiper-slide work-slide small-slide">
+									<a href="/work-single.php?project=silvassa" data-cursor="View">
+										<span class="work-slide-image">
+											<img src="assets/img/work/images_sorted/silvassa/silvassa74.jpg" alt="">
+										</span>
+										<span class="work-slide-title">Silvassa</span>
 									</a>
 								</div>
 								<div class="swiper-slide work-slide">
