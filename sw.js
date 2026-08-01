@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vickygraphy-v2';
+const CACHE_NAME = 'vickygraphy-v3';
 
 const STATIC_ASSETS = [
     '/assets/css/helper.css',
